@@ -23,7 +23,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-@Mod(modid = "irjm", name = "IanRJ's MC mod <3", version = "1.0.7")
+@Mod(modid = "irjm", name = "1198AD Mod", version = "1.0.7")
 public class IanMod {
 	
 	public static Item itemNewBlock;
@@ -37,18 +37,43 @@ public class IanMod {
 	public static Block blockGemOre;
 	public static Block blockBlueberryBush;
 	
-	public static Item itemGemHelmet;
-	public static Item itemGemChestplate;
-	public static Item itemGemLeggings;
-	public static Item itemGemBoots;
-	
 	public static Item itemGemPickaxe;
 	public static Item itemGemSword;
 	public static Item itemGemAxe;
 	public static Item itemGemSpade;
 	public static Item itemGemHoe;
-
 	
+	public static Item itemGemHelmet;
+	public static Item itemGemChestplate;
+	public static Item itemGemLeggings;
+	public static Item itemGemBoots;
+	
+	/*NEW
+	public static Item itemHelmet1;
+	public static Item itemChestplate1;
+	public static Item itemLeggings1;
+	public static Item itemBoots1;
+	
+	public static Item itemHelmet2;
+	public static Item itemChestplate2;
+	public static Item itemLeggings2;
+	public static Item itemBoots2;
+	
+	public static Item itemHelmet;3
+	public static Item itemChestplate3;
+	public static Item itemLeggings3;
+	public static Item itemBoots3;
+	
+	public static Item itemHelmet4;
+	public static Item itemChestplate4;
+	public static Item itemLeggings4;
+	public static Item itemBoots4;
+
+	public static final ItemArmor.ArmorMaterial ArmorMaterial1 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{2,5,4,1}, 30);
+	public static final ItemArmor.ArmorMaterial ArmorMaterial1 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{3,7,5,2}, 30);
+	public static final ItemArmor.ArmorMaterial ArmorMaterial1 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{2,4,3,1}, 30);
+	public static final ItemArmor.ArmorMaterial ArmorMaterial1 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{3,7,5,2}, 30);
+	*/
 	public static final Item.ToolMaterial gemToolMaterial = EnumHelper.addToolMaterial("gemToolMaterial", 4, 1500, 9.0F, 2.5F, 3);
 	public static final ItemArmor.ArmorMaterial gemArmorMaterial = EnumHelper.addArmorMaterial("gemArmorMaterial", 2000, new int[]{2,7,5,3}, 30);
 	
@@ -117,6 +142,24 @@ public class IanMod {
 		itemNickle = new ItemNickle().setUnlocalizedName("ItemNickle").setTextureName("irjm:itemNickle").setCreativeTab(tabIanMod);
 		GameRegistry.registerItem(itemNickle, itemNickle.getUnlocalizedName().substring(5));
 		
+		/*NEW
+		itemHelmet1 = new ItemArmor1(ArmorMaterial1, 0, 0).setUnlocalizedName("ItemHelmet1").setTextureName("irjm:itemHelmet1").setCreativeTab(tabIanMod);
+		GameRegistry.registerItem(itemGemHelmet, itemGemHelmet.getUnlocalizedName().substring(5));
+		
+		itemGemChestplate = new ItemGemArmor(gemArmorMaterial, 0, 1).setUnlocalizedName("ItemGemChestplate").setTextureName("irjm:itemGemChestplate").setCreativeTab(tabIanMod);
+		GameRegistry.registerItem(itemGemChestplate, itemGemChestplate.getUnlocalizedName().substring(5));
+		
+		itemGemLeggings = new ItemGemArmor(gemArmorMaterial, 0, 2).setUnlocalizedName("ItemGemLeggings").setTextureName("irjm:itemGemLeggings").setCreativeTab(tabIanMod);
+		GameRegistry.registerItem(itemGemLeggings, itemGemLeggings.getUnlocalizedName().substring(5));
+		
+		itemGemBoots = new ItemGemArmor(gemArmorMaterial, 0, 3).setUnlocalizedName("ItemGemBoots").setTextureName("irjm:itemGemBoots").setCreativeTab(tabIanMod);
+		GameRegistry.registerItem(itemGemBoots, itemGemBoots.getUnlocalizedName().substring(5));
+		
+		
+		
+		
+		*/
+		
 
 		GameRegistry.addSmelting(itemFood1, new ItemStack(itemFood2), 10.0f);
 		
@@ -150,6 +193,9 @@ public class IanMod {
 		GameRegistry.addRecipe(new ItemStack(itemGemBoots), new Object[]{"P P","P P","   ", 'P', blockNewItem});
 		GameRegistry.addRecipe(new ItemStack(itemGemBoots), new Object[]{"   ","P P","P P", 'P', blockNewItem});
 		GameRegistry.addRecipe(new ItemStack(itemGemHelmet), new Object[]{"   ","PPP","P P", 'P', blockNewItem});
+		/*NEW
+		
+		*/
 	}
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
