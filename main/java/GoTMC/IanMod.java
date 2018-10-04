@@ -65,7 +65,34 @@ public class IanMod {
 	public static ServerProxy proxy;
 	
 	public static Item itemLargeSword;
+	
+	/*-=-=-=-=-=-=-Armor-=-=-=-=-*/
 
+	public static Item itemHelmet1;
+	public static Item itemChestplate1;
+	public static Item itemLeggings1;
+	public static Item itemBoots1;
+	
+	public static Item itemHelmet2;
+	public static Item itemChestplate2;
+	public static Item itemLeggings2;
+	public static Item itemBoots2;
+	
+	public static Item itemHelmet;3
+	public static Item itemChestplate3;
+	public static Item itemLeggings3;
+	public static Item itemBoots3;
+	
+	public static Item itemHelmet4;
+	public static Item itemChestplate4;
+	public static Item itemLeggings4;
+	public static Item itemBoots4;
+
+	public static final ItemArmor.ArmorMaterial ArmorMaterial1 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{2,5,4,1}, 30);
+	public static final ItemArmor.ArmorMaterial ArmorMaterial1 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{3,7,5,2}, 30);
+	public static final ItemArmor.ArmorMaterial ArmorMaterial1 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{2,4,3,1}, 30);
+	public static final ItemArmor.ArmorMaterial ArmorMaterial1 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{3,7,5,2}, 30);
+	
 	
 	@Instance
 	public static IanMod modInstance;
@@ -81,6 +108,24 @@ public class IanMod {
 		itemLargeSword = new ItemLargeSword(BCE1).setUnlocalizedName("NorthernSword").setTextureName("irjm:itemSword1");
 		GameRegistry.registerItem(itemLargeSword, itemLargeSword.getUnlocalizedName().substring(5));
 		
+			/*-=-=-=-=-=-=-Armor-=-=-=-=-*/
+
+		itemHelmet1 = new ItemArmor1(ArmorMaterial1, 0, 0).setUnlocalizedName("EU1helm").setTextureName("irjm:EU1helm").setCreativeTab(FaithAndWarArmor);
+		GameRegistry.registerItem(itemHelmet1, itemHelmet1.getUnlocalizedName().substring(5));
+		
+		itemChestplate1 = new ItemArmor1(ArmorMaterial1, 0, 1).setUnlocalizedName("EU1chest").setTextureName("irjm:EU1chest").setCreativeTab(FaithAndWarArmor);
+		GameRegistry.registerItem(itemChestplate1, itemChestplate1.getUnlocalizedName().substring(5));
+		
+		itemLeggings1 = new ItemArmor1(ArmorMaterial1, 0, 2).setUnlocalizedName("EU1Legs").setTextureName("irjm:EU1Legs").setCreativeTab(FaithAndWarArmor);
+		GameRegistry.registerItem(itemGemLeggings, itemGemLeggings.getUnlocalizedName().substring(5));
+		
+		itemBoots1 = new ItemArmor1(ArmorMaterial1, 0, 3).setUnlocalizedName("EU1boots").setTextureName("irjm:EU1boots").setCreativeTab(FaithAndWarArmor);
+		GameRegistry.registerItem(itemBoots1, itemBoots1.getUnlocalizedName().substring(5));
+		
+			
+		
+		
+		
 	}
 	@EventHandler
 	public void Init(FMLInitializationEvent event){
@@ -90,7 +135,12 @@ public class IanMod {
 	public void postInit(FMLPostInitializationEvent event) {
 	 //WorldType GOT = new WorldTypeGOT(3, "Game of Thrones");
 	 
-	
+	public static CreativeTabs FaithAndWarArmor= new CreativeTabs("FaithAndWarArmor"){
+	@Override
+		public Item getTabIconItem(){
+			return new ItemStack(EU2helm).getItem();
+		}
+	};
 
 		//list of blocks from every mod
 	}
