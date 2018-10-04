@@ -66,6 +66,13 @@ public class IanMod {
 	
 	public static Item itemLargeSword;
 	
+	public static Item itemIronNug;
+	public static Item itemChainmail;
+	public static Item itemWoodShaft;
+	public static Item itemLeatherStrap;
+		
+	
+	
 	/*-=-=-=-=-=-=-Armor-=-=-=-=-*/
 
 	public static Item itemHelmet1;
@@ -122,7 +129,7 @@ public class IanMod {
 		itemBoots1 = new ItemArmor1(ArmorMaterial1, 0, 3).setUnlocalizedName("EU1boots").setTextureName("irjm:EU1boots").setCreativeTab(FaithAndWarArmor);
 		GameRegistry.registerItem(itemBoots1, itemBoots1.getUnlocalizedName().substring(5));
 		
-			
+		itemIronNug = new Item
 		
 		
 		
