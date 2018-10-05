@@ -129,9 +129,19 @@ public class IanMod {
 		itemBoots1 = new ItemArmor1(ArmorMaterial1, 0, 3).setUnlocalizedName("EU1boots").setTextureName("irjm:EU1boots").setCreativeTab(FaithAndWarArmor);
 		GameRegistry.registerItem(itemBoots1, itemBoots1.getUnlocalizedName().substring(5));
 		
-		itemIronNug = new Item
+					/*-=-=-=-=-=-=-=-Materials-=-=-=-=-=-*/
 		
+		itemIronNug = new CraftingMaterial().setUnlocalizedName("IronNug").setTextureName("irjm:IronNug");
+		GameRegistry.registerItem(itemIronNug, itemIronNug.getUnlocalizedName().substring(5));
 		
+		itemChainmail = new CraftingMaterial().setUnlocalizedName("Chainmail").setTextureName("irjm:Chainmail");
+		GameRegistry.registerItem(itemChainmail, itemChainmail.getUnlocalizedName().substring(5));
+		
+		itemChainmail = new CraftingMaterial().setUnlocalizedName("Chainmail").setTextureName("irjm:Chainmail");
+		GameRegistry.registerItem(itemChainmail, itemChainmail.getUnlocalizedName().substring(5));
+		
+		itemLeatherStrap = new CraftingMaterial().setUnlocalizedName("LeatherStrap").setTextureName("irjm:LeatherStrap");
+		GameRegistry.registerItem(itemLeatherStrap, itemLeatherStrap.getUnlocalizedName().substring(5));
 		
 	}
 	@EventHandler
