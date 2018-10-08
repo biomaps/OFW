@@ -3,10 +3,9 @@ package GoTMC.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.potion.PotionHelper;
 
-public class CraftingMaterial extends Item{
-	public CraftingMaterial() {
+public class CraftingMaterialHand extends Item{
+	public CraftingMaterialHand() {
 		
-		//this.setFull3D();
 		//held like a sword
 		
 		this.setNoRepair();
@@ -23,6 +22,8 @@ public class CraftingMaterial extends Item{
 		
 		//this.setPotionEffect(PotionHelper.ghastTearEffect);
 		//can make regen pots
+		
+		
 		
 		
 		
