@@ -5,9 +5,9 @@ import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.ItemStack;
 
-public class ItemArmor3 extends ItemArmor {
+public class ItemArmor4 extends ItemArmor {
 
-	public ItemArmor3(ArmorMaterial armorMaterial, int renderIndex,
+	public ItemArmor4(ArmorMaterial armorMaterial, int renderIndex,
 			int armorType) {
 		super(armorMaterial, renderIndex, armorType);
 	}
@@ -16,8 +16,8 @@ public class ItemArmor3 extends ItemArmor {
 	public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type){
 		if(this.armorType == 2)
 		{
-		return "irjm:textures/models/armor/IslamicArmour_Layer2.png";
+		return "irjm:textures/models/armor/JihadArmour_Layer2.png";
 	}
-		return "irjm:textures/models/armor/IslamicArmor_Layer1.png";
+		return "irjm:textures/models/armor/JihadArmor_Layer1.png";
 	}
 }

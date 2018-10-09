@@ -16,8 +16,8 @@ public class ItemArmor1 extends ItemArmor {
 	public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type){
 		if(this.armorType == 2)
 		{
-		return "irjm:textures/models/armor/gemLayer2.png";
+		return "irjm:textures/models/armor/NomanArmour_Layer2.png";
 	}
-		return "irjm:textures/models/armor/gemLayer1.png";
+		return "irjm:textures/models/armor/NomanArmour_Layer1.png";
 	}
 }
