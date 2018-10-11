@@ -6,7 +6,7 @@ import net.minecraft.potion.PotionHelper;
 public class CraftingMaterialHand extends Item{
 	public CraftingMaterialHand() {
 		
-		this.isFull3D();
+		this.setFull3D();
 		//held like a sword
 		
 		this.setNoRepair();

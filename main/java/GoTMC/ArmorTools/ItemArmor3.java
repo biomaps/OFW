@@ -18,6 +18,6 @@ public class ItemArmor3 extends ItemArmor {
 		{
 		return "irjm:textures/models/armor/IslamicArmour_Layer2.png";
 	}
-		return "irjm:textures/models/armor/IslamicArmor_Layer1.png";
+		return "irjm:textures/models/armor/IslamicArmour_Layer1.png";
 	}
 }
