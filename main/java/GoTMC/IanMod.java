@@ -96,6 +96,9 @@ public class IanMod {
 	public static final ItemArmor.ArmorMaterial ArmorMaterial3 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{2,4,3,1}, 30);
 	public static final ItemArmor.ArmorMaterial ArmorMaterial4 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{3,7,5,2}, 30);
 	
+	public static Block crapOne;
+	
+	public static Item seedFood;
 	
 	@Instance
 	public static IanMod modInstance;
@@ -110,6 +113,12 @@ public class IanMod {
 		
 		itemLargeSword = new ItemLargeSword(BCE1).setUnlocalizedName("NorthernSword").setTextureName("irjm:itemSword1");
 		GameRegistry.registerItem(itemLargeSword, itemLargeSword.getUnlocalizedName().substring(5));
+		
+		crapOne = new CrapOne().setBlockName("CropOne").setBlockTextureName("irjm:a");
+		GameRegistry.registerBlock(crapOne, crapOne.getUnlocalizedName().substring(5));
+		
+		seedFood = new BCEitemSeedFood(3, 0.3F, crapOne, Blocks.farmland).setUnlocalizedName("a").setTextureName("irjm:itemSword1");
+		GameRegistry.registerItem(seedFood, seedFood.getUnlocalizedName().substring(5));
 		
 			/*-=-=-=-=-=-=-Armor-=-=-=-=-*/
 
