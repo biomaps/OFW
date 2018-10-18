@@ -92,13 +92,17 @@ public class IanMod {
 	public static Item itemChestplate4;
 	public static Item itemLeggings4;
 	public static Item itemBoots4;
+	
+	public static Item itemSword1;
+	public static Item itemSword2;
 
 	public static final ItemArmor.ArmorMaterial ArmorMaterial1 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{2,5,4,1}, 30);
 	public static final ItemArmor.ArmorMaterial ArmorMaterial2 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{3,7,5,2}, 30);
 	public static final ItemArmor.ArmorMaterial ArmorMaterial3 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{2,4,3,1}, 30);
 	public static final ItemArmor.ArmorMaterial ArmorMaterial4 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{3,7,5,2}, 30);
 	
-	public static final Item.ToolMaterial GOTnorthern = EnumHelper.addToolMaterial("EUmaterial", 4, 1500, 9.0F, 3.0F, 0);
+	public static final Item.ToolMaterial BCEm1 = EnumHelper.addToolMaterial("BCEm1", 4, 1500, 9.0F, 3.0F, 0);
+	public static final Item.ToolMaterial BCEm1 = EnumHelper.addToolMaterial("BCEm1", 4, 1500, 9.0F, 3.0F, 0);
 	
 	public static Block crapOne;
 	
@@ -193,6 +197,14 @@ public class IanMod {
 		
 		itemLeatherStrap = new CraftingMaterial().setUnlocalizedName("LeatherStrap").setTextureName("irjm:LeatherStrap").setCreativeTab(FaithAndWarArmor);;
 		GameRegistry.registerItem(itemLeatherStrap, itemLeatherStrap.getUnlocalizedName().substring(5));
+		
+		/*SWORDS + BOWS 🦈 */
+		
+		itemSword1 = new ItemBCESword(BCEeu1).setUnlocalizedName("WesterlandSword").setTextureName("irjm:itemSword1").setCreativeTab(tabGoTWeapons);
+		GameRegistry.registerItem(itemSword1, itemSword1.getUnlocalizedName().substring(5));
+		
+		itemSword2 = new ItemBCESword(BCEm1).setUnlocalizedName("WesterlandSword").setTextureName("irjm:itemSword2").setCreativeTab(tabGoTWeapons);
+		GameRegistry.registerItem(itemSword2, itemSword2.getUnlocalizedName().substring(5));
 		
 	}
 	@EventHandler
