@@ -98,6 +98,8 @@ public class IanMod {
 	public static final ItemArmor.ArmorMaterial ArmorMaterial3 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{2,4,3,1}, 30);
 	public static final ItemArmor.ArmorMaterial ArmorMaterial4 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{3,7,5,2}, 30);
 	
+	public static final Item.ToolMaterial GOTnorthern = EnumHelper.addToolMaterial("EUmaterial", 4, 1500, 9.0F, 3.0F, 0);
+	
 	public static Block crapOne;
 	
 	public static Item seedFood;
