@@ -43,6 +43,8 @@ import GoTMC.*;
 import GoTMC.ArmorTools.*;
 import GoTMC.Blocks.*;
 import GoTMC.Crops.*;
+import GoTMC.Items.CraftingMaterial;
+import GoTMC.Items.CraftingMaterialHand;
 import GoTMC.Mobs.*;
 import GoTMC.Proxy.*;
 import cpw.mods.fml.common.Mod;
@@ -205,8 +207,15 @@ public class IanMod {
 		@Override
 		public Item getTabIconItem(){
 			return new ItemStack(itemHelmet2).getItem();
+	
 
 	//causes an order to the loading of the mods so PreInit then init then post
+		}
+	};
+	public static CreativeTabs FaithAndWarItems= new CreativeTabs("FaithAndWarItems"){
+		@Override
+		public Item getTabIconItem(){
+			return new ItemStack(itemHelmet2).getItem();
 		}
 	};
 }

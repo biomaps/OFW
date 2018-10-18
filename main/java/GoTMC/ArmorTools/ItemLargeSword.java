@@ -1,4 +1,4 @@
-package GoTMC;
+package GoTMC.ArmorTools;
 
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.ItemSword;
