@@ -102,7 +102,7 @@ public class IanMod {
 	public static final ItemArmor.ArmorMaterial ArmorMaterial4 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{3,7,5,2}, 30);
 	
 	public static final Item.ToolMaterial BCEm1 = EnumHelper.addToolMaterial("BCEm1", 4, 1500, 9.0F, 3.0F, 0);
-	public static final Item.ToolMaterial BCEm1 = EnumHelper.addToolMaterial("BCEm1", 4, 1500, 9.0F, 3.0F, 0);
+	public static final Item.ToolMaterial BCEeu1 = EnumHelper.addToolMaterial("BCEeu1", 4, 1500, 9.0F, 3.0F, 0);
 	
 	public static Block crapOne;
 	
@@ -200,10 +200,10 @@ public class IanMod {
 		
 		/*SWORDS + BOWS 🦈 */
 		
-		itemSword1 = new ItemBCESword(BCEeu1).setUnlocalizedName("WesterlandSword").setTextureName("irjm:itemSword1").setCreativeTab(tabGoTWeapons);
+		itemSword1 = new ItemBCESword(BCEeu1).setUnlocalizedName("WesterlandSword").setTextureName("irjm:itemSword1").setCreativeTab(FaithAndWarTools);
 		GameRegistry.registerItem(itemSword1, itemSword1.getUnlocalizedName().substring(5));
 		
-		itemSword2 = new ItemBCESword(BCEm1).setUnlocalizedName("WesterlandSword").setTextureName("irjm:itemSword2").setCreativeTab(tabGoTWeapons);
+		itemSword2 = new ItemBCESword(BCEm1).setUnlocalizedName("NotWesterlandSword").setTextureName("irjm:itemSword2").setCreativeTab(FaithAndWarTools);
 		GameRegistry.registerItem(itemSword2, itemSword2.getUnlocalizedName().substring(5));
 		
 	}
@@ -227,6 +227,12 @@ public class IanMod {
 		}
 	};
 	public static CreativeTabs FaithAndWarItems= new CreativeTabs("FaithAndWarItems"){
+		@Override
+		public Item getTabIconItem(){
+			return new ItemStack(itemHelmet2).getItem();
+		}
+	};
+	public static CreativeTabs FaithAndWarTools= new CreativeTabs("FaithAndWarTools"){
 		@Override
 		public Item getTabIconItem(){
 			return new ItemStack(itemHelmet2).getItem();

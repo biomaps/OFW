@@ -1,25 +1,25 @@
 itemGroup.FaithAndWarArmor=FAW Armour
-item.Chainmail=Chanimail
-item.IronNug=Iron Nugget
-item.woodShaft=Wooden Shaft
-item.leatherStrap=Leather Straps
+item.Chainmail=.nameChanimail
+item.IronNug=.nameIron Nugget
+item.woodShaft.name=Wooden Shaft
+item.leatherStrap.name=Leather Straps
 
-item.MOSLEM1helm=Iron Moslem Conical Helmet
-item.MOSLEM1chest=Leathern Moslem Scaled Hauberk
-item.MOSLEM1legs=Leathern Moslem Scaled Chaps
-item.MOSLEM1boots=Leathern Sand Strider Boots
+item.MOSLEM1helm.name=Iron Moslem Conical Helmet
+item.MOSLEM1chest.name=Leathern Moslem Scaled Hauberk
+item.MOSLEM1legs.name=Leathern Moslem Scaled Chaps
+item.MOSLEM1boots.name=Leathern Sand Strider Boots
 
-item.MOSLEM2helm=Iron Masked Jihad Conical Helmet
-item.MOSLEM2chest=Iron Plated Jihad Chestplate
-item.MOSLEM2legs=Iron Plated Jihad Leggings
-item.MOSLEM2boots=Iron Shin-Plated Jihad Boots
+item.MOSLEM2helm.name=Iron Masked Jihad Conical Helmet
+item.MOSLEM2chest.name=Iron Plated Jihad Chestplate
+item.MOSLEM2legs.name=Iron Plated Jihad Leggings
+item.MOSLEM2boots.name=Iron Shin-Plated Jihad Boots
 
-item.EU1helm=Iron Norman Nasal Helmet
-item.EU1chest=Iron Norman Chain Hauberk
-item.EU1legs=Iron Chain Chaps
-item.EU1boots=Leathern Shin Wrappings
+item.EU1helm.name=Iron Norman Nasal Helmet
+item.EU1chest.name=Iron Norman Chain Hauberk
+item.EU1legs.name=Iron Chain Chaps
+item.EU1boots.name=Leathern Shin Wrappings
 
-item.EU2helm=Iron Great Helm
-item.EU2chest=Iron Plated Common Chestplate
-item.EU2legs=Iron Plated Common Leggings
-item.EU2boots=Iron Shin-Plated Common Boots
+item.EU2helm.name=Iron Great Helm
+item.EU2chest.name=Iron Plated Common Chestplate
+item.EU2legs.name=Iron Plated Common Leggings
+item.EU2boots.name=Iron Shin-Plated Common Boots
