@@ -69,7 +69,25 @@ public class IanMod {
 	public static Item itemWoodShaft;
 	public static Item itemLeatherStrap;
 		
+		//Limestone
+	public static Block blockLimestoneBrick;
+	public static Block blockLimestoneBrickCA;
+	public static Block blockLimestoneBrickM;
+	public static Block blockLimestoneBrickF;
+	public static Block blockLimestoneCobble;
+	public static Block blockLimestoneBrickCR;
+	public static Block blockLimestoneBrickB;
+	public static Block blockLimestone;
 	
+	//granite
+	public static Block blockNorthStoneBrick;
+	public static Block blockNorthStoneBrickCA;
+	public static Block blockNorthStoneBrickM;
+	public static Block blockNorthStoneBrickF;
+	public static Block blockNorthStoneCobble;
+	public static Block blockNorthStoneBrickCR;
+	public static Block blockNorthStoneBrickB;
+	public static Block blockNorthStone;
 	
 	/*-=-=-=-=-=-=-Armor-=-=-=-=-*/
 
@@ -206,6 +224,10 @@ public class IanMod {
 		itemSword2 = new ItemBCESword(BCEm1).setUnlocalizedName("NotWesterlandSword").setTextureName("irjm:itemSword2").setCreativeTab(FaithAndWarTools);
 		GameRegistry.registerItem(itemSword2, itemSword2.getUnlocalizedName().substring(5));
 		
+		
+		
+		
+
 	}
 	@EventHandler
 	public void Init(FMLInitializationEvent event){
