@@ -20,31 +20,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.WorldType;
 import net.minecraftforge.common.util.EnumHelper;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import GoTMC.*;
 import GoTMC.ArmorTools.*;
 import GoTMC.Blocks.*;
 import GoTMC.Crops.*;
-import GoTMC.Items.CraftingMaterial;
-import GoTMC.Items.CraftingMaterialHand;
+import GoTMC.Items.*;
 import GoTMC.Mobs.*;
 import GoTMC.Proxy.*;
 import cpw.mods.fml.common.Mod;
@@ -224,6 +204,31 @@ public class IanMod {
 		itemSword2 = new ItemBCESword(BCEm1).setUnlocalizedName("NotWesterlandSword").setTextureName("irjm:itemSword2").setCreativeTab(FaithAndWarTools);
 		GameRegistry.registerItem(itemSword2, itemSword2.getUnlocalizedName().substring(5));
 		
+		/*BLOCKS*/
+		
+		
+	//Limestone
+		
+		blockLimestone = new BlockGoTStone(Material.rock).setBlockName("Limestone").setBlockTextureName("irjm:limestone").setCreativeTab(tabGoTblocks);
+		GameRegistry.registerBlock(blockLimestone, blockLimestone.getUnlocalizedName().substring(5));
+		
+		blockLimestoneBrick = new BlockGoTBrick(Material.rock).setBlockName("LimestoneBrick").setBlockTextureName("irjm:limestoneB").setCreativeTab(tabGoTblocks);
+		GameRegistry.registerBlock(blockLimestoneBrick, blockLimestoneBrick.getUnlocalizedName().substring(5));
+		
+		blockLimestoneBrickM = new BlockGoTBrick(Material.rock).setBlockName("LimestoneBrickM").setBlockTextureName("irjm:limestoneBmossy").setCreativeTab(tabGoTblocks);
+		GameRegistry.registerBlock(blockLimestoneBrickM, blockLimestoneBrickM.getUnlocalizedName().substring(5));
+		
+		blockLimestoneBrickB = new BlockGoTBrick(Material.rock).setBlockName("LimestoneBrickB").setBlockTextureName("irjm:limestoneBburnt").setCreativeTab(tabGoTblocks);
+		GameRegistry.registerBlock(blockLimestoneBrickB, blockLimestoneBrickB.getUnlocalizedName().substring(5));
+		
+		blockLimestoneBrickCR = new BlockGoTBrick(Material.rock).setBlockName("LimestoneBrickCR").setBlockTextureName("irjm:limestoneBcracked").setCreativeTab(tabGoTblocks);
+		GameRegistry.registerBlock(blockLimestoneBrickCR, blockLimestoneBrickCR.getUnlocalizedName().substring(5));
+		
+		blockLimestoneBrickCA = new BlockGoTBrick(Material.rock).setBlockName("LimestoneBrickCA").setBlockTextureName("irjm:limestoneBcarved").setCreativeTab(tabGoTblocks);
+		GameRegistry.registerBlock(blockLimestoneBrickCA, blockLimestoneBrickCA.getUnlocalizedName().substring(5));
+		
+		blockLimestoneBrickF = new BlockGoTBrick(Material.rock).setBlockName("LimestoneBrickF").setBlockTextureName("irjm:limestoneBfrozen").setCreativeTab(tabGoTblocks);
+		GameRegistry.registerBlock(blockLimestoneBrickF, blockLimestoneBrickF.getUnlocalizedName().substring(5));
 		
 		
 		
