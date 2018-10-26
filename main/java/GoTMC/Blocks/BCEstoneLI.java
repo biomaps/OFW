@@ -2,7 +2,7 @@ package GoTMC.Blocks;
 
 import net.minecraft.block.material.Material;
 
-public class BCEstone extends BCEblock{
+public class BCEstoneLI extends BCEstone{
 
 	public BCEstone(Material material) {
 		super(material);
