@@ -209,28 +209,56 @@ public class IanMod {
 		
 	//Limestone
 		
-		blockLimestone = new BlockGoTStone(Material.rock).setBlockName("Limestone").setBlockTextureName("irjm:limestone").setCreativeTab(tabGoTblocks);
+		blockLimestone = new BCEstoneLI(Material.rock).setBlockName("Limestone").setBlockTextureName("irjm:limestone").setCreativeTab(tabGoTblocks);
 		GameRegistry.registerBlock(blockLimestone, blockLimestone.getUnlocalizedName().substring(5));
 		
-		blockLimestoneBrick = new BlockGoTBrick(Material.rock).setBlockName("LimestoneBrick").setBlockTextureName("irjm:limestoneB").setCreativeTab(tabGoTblocks);
+		blockLimestoneBrick = new BCEbrick(Material.rock).setBlockName("LimestoneBrick").setBlockTextureName("irjm:limestoneB").setCreativeTab(tabGoTblocks);
 		GameRegistry.registerBlock(blockLimestoneBrick, blockLimestoneBrick.getUnlocalizedName().substring(5));
 		
-		blockLimestoneBrickM = new BlockGoTBrick(Material.rock).setBlockName("LimestoneBrickM").setBlockTextureName("irjm:limestoneBmossy").setCreativeTab(tabGoTblocks);
+		blockLimestoneBrickM = new BCEbrick(Material.rock).setBlockName("LimestoneBrickM").setBlockTextureName("irjm:limestoneBmossy").setCreativeTab(tabGoTblocks);
 		GameRegistry.registerBlock(blockLimestoneBrickM, blockLimestoneBrickM.getUnlocalizedName().substring(5));
 		
-		blockLimestoneBrickB = new BlockGoTBrick(Material.rock).setBlockName("LimestoneBrickB").setBlockTextureName("irjm:limestoneBburnt").setCreativeTab(tabGoTblocks);
+		blockLimestoneBrickB = new BCEbrick(Material.rock).setBlockName("LimestoneBrickB").setBlockTextureName("irjm:limestoneBburnt").setCreativeTab(tabGoTblocks);
 		GameRegistry.registerBlock(blockLimestoneBrickB, blockLimestoneBrickB.getUnlocalizedName().substring(5));
 		
-		blockLimestoneBrickCR = new BlockGoTBrick(Material.rock).setBlockName("LimestoneBrickCR").setBlockTextureName("irjm:limestoneBcracked").setCreativeTab(tabGoTblocks);
+		blockLimestoneBrickCR = new BCEbrick(Material.rock).setBlockName("LimestoneBrickCR").setBlockTextureName("irjm:limestoneBcracked").setCreativeTab(tabGoTblocks);
 		GameRegistry.registerBlock(blockLimestoneBrickCR, blockLimestoneBrickCR.getUnlocalizedName().substring(5));
 		
-		blockLimestoneBrickCA = new BlockGoTBrick(Material.rock).setBlockName("LimestoneBrickCA").setBlockTextureName("irjm:limestoneBcarved").setCreativeTab(tabGoTblocks);
+		blockLimestoneBrickCA = new BCEbrick(Material.rock).setBlockName("LimestoneBrickCA").setBlockTextureName("irjm:limestoneBcarved").setCreativeTab(tabGoTblocks);
 		GameRegistry.registerBlock(blockLimestoneBrickCA, blockLimestoneBrickCA.getUnlocalizedName().substring(5));
 		
-		blockLimestoneBrickF = new BlockGoTBrick(Material.rock).setBlockName("LimestoneBrickF").setBlockTextureName("irjm:limestoneBfrozen").setCreativeTab(tabGoTblocks);
+		blockLimestoneBrickF = new BCEbrick(Material.rock).setBlockName("LimestoneBrickF").setBlockTextureName("irjm:limestoneBfrozen").setCreativeTab(tabGoTblocks);
 		GameRegistry.registerBlock(blockLimestoneBrickF, blockLimestoneBrickF.getUnlocalizedName().substring(5));
 		
+		blockLimestoneCobble = new BCEbrick(Material.rock).setBlockName("LimestoneCobble").setBlockTextureName("irjm:limestoneCobble").setCreativeTab(tabGoTblocks);
+		GameRegistry.registerBlock(blockLimestoneCobble, blockLimestoneCobble.getUnlocalizedName().substring(5));
+	//Granite
 		
+		
+		blockNorthStone = new BCEstoneGR(Material.rock).setBlockName("NorthStone").setBlockTextureName("irjm:NorthStone").setCreativeTab(tabGoTblocks);
+		GameRegistry.registerBlock(blockNorthStone, blockNorthStone.getUnlocalizedName().substring(5));
+		
+		blockNorthStoneBrick = new BCEbrick(Material.rock).setBlockName("NorthStoneBrick").setBlockTextureName("irjm:NorthStoneB").setCreativeTab(tabGoTblocks);
+		GameRegistry.registerBlock(blockNorthStoneBrick, blockNorthStoneBrick.getUnlocalizedName().substring(5));
+		
+		blockNorthStoneBrickM = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickM").setBlockTextureName("irjm:NorthStoneBmossy").setCreativeTab(tabGoTblocks);
+		GameRegistry.registerBlock(blockNorthStoneBrickM, blockNorthStoneBrickM.getUnlocalizedName().substring(5));
+		
+		blockNorthStoneBrickCR = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickCR").setBlockTextureName("irjm:NorthStoneBcracked").setCreativeTab(tabGoTblocks);
+		GameRegistry.registerBlock(blockNorthStoneBrickCR, blockNorthStoneBrickCR.getUnlocalizedName().substring(5));
+		
+		blockNorthStoneBrickCA = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickCA").setBlockTextureName("irjm:NorthStoneBcarved").setCreativeTab(tabGoTblocks);
+		GameRegistry.registerBlock(blockNorthStoneBrickCA, blockNorthStoneBrickCA.getUnlocalizedName().substring(5));
+		
+		blockNorthStoneBrickF = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickF").setBlockTextureName("irjm:NorthStoneBfrozen").setCreativeTab(tabGoTblocks);
+		GameRegistry.registerBlock(blockNorthStoneBrickF, blockNorthStoneBrickF.getUnlocalizedName().substring(5));
+		
+		blockNorthStoneBrickB = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickB").setBlockTextureName("irjm:NorthStoneBburnt").setCreativeTab(tabGoTblocks);
+		GameRegistry.registerBlock(blockNorthStoneBrickB, blockNorthStoneBrickB.getUnlocalizedName().substring(5));
+		
+		blockNorthStoneCobble = new BCEbrick(Material.rock).setBlockName("NorthStoneCobble").setBlockTextureName("irjm:NorthStoneCobble").setCreativeTab(tabGoTblocks);
+		GameRegistry.registerBlock(blockNorthStoneCobble, blockNorthStoneCobble.getUnlocalizedName().substring(5));
+
 		
 
 	}
