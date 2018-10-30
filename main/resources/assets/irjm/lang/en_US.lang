@@ -27,11 +27,20 @@ item.EU2legs.name=Iron Plated Common Leggings
 item.EU2boots.name=Iron Shin-Plated Common Boots
 
 
-tile.NorthStone
-tile.NorthStoneBrick
-tile.
-tile.
-tile.
-tile.
-tile.
-tile.
+tile.NorthStone.name=
+tile.NorthStoneBrick.name=
+tile.NorthStoneBrickM.name=
+tile.NorthStoneBrickCR.name=
+tile.NorthStoneBrickCA.name=
+tile.NorthStoneBrickF.name=
+tile.NorthStoneBrickB.name=
+tile.NorthStoneCobble.name=
+
+tile.Limestone.name=
+tile.LimestoneBrick.name=
+tile.LimestoneBrickM.name=
+tile.LimestoneBrickB.name=
+tile.LimestoneBrickCR.name=
+tile.LimestoneBrickCA.name=
+tile.LimestoneBrickF.name=
+tile.LimestoneCobble.name=
