@@ -1,4 +1,4 @@
-# **Faith and War Minecraft Mod** ![alt text](https://cdn.discordapp.com/attachments/475727393450098690/507611644583477269/Logo_1.png "Mod Logo")
+![alt text](https://cdn.discordapp.com/attachments/475727393450098690/507611644583477269/Logo_1.png "Mod Logo") # **Faith and War Minecraft Mod** 
 
 
 #### A minecraft mod based on the 1200 B.C.E. giving the player various items and blocks in game that relate to the time period.
