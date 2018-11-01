@@ -47,7 +47,7 @@ public class IanMod {
 	public static Item itemIronNug;
 	public static Item itemChainmail;
 	public static Item itemWoodShaft;
-	public static Item itemLeatherStrap;
+	public static Item itemLeather;
 		
 		//Limestone
 	public static Block blockLimestoneBrick;
@@ -264,6 +264,18 @@ public class IanMod {
 	}
 	@EventHandler
 	public void Init(FMLInitializationEvent event){
+	
+		GameRegistry.addRecipe(new ItemStack(MOSLEM1helm), new Object[]{" i ","iii"," i ", 'i', Items.iron_ingot});
+		GameRegistry.addRecipe(new ItemStack(MOSLEM1chest), new Object[]{"L L","SLS","LLL", 'S', LeatherStrap, 'L', Items.leather});
+		GameRegistry.addRecipe(new ItemStack(MOSLEM1legs), new Object[]{"LLL","P P", "L L", 'P', LeatherStrap, 'L', Items.leather});		
+		GameRegistry.addRecipe(new ItemStack(MOSLEM1boots), new Object[]{"L L","P P","   ", 'P', LeatherStrap, 'L', Items.leather});
+		GameRegistry.addRecipe(new ItemStack(MOSLEM1boots), new Object[]{"   ","L L","P P", 'P', LeatherStrap, 'L', Items.leather});
+		
+		GameRegistry.addRecipe(new ItemStack(MOSLEM2helm), new Object[]{" i ","iii","iii", 'i', Items.iron_ingot});
+		GameRegistry.addRecipe(new ItemStack(MOSLEM2chest), new Object[]{"L L","SIS","LIL", 'S', LeatherStrap, 'L', Chainmail, 'I', Items.Iron_Ingot});
+		GameRegistry.addRecipe(new ItemStack(MOSLEM2legs), new Object[]{"LLL","P P", "I I", 'P', LeatherStrap, 'L', Chainmail, 'I', Item.Iron_Ingot});		
+		GameRegistry.addRecipe(new ItemStack(MOSLEM2boots), new Object[]{"   ","L L","P P", 'P', Items.leather, 'L', Items.Iron_Ingot});
+		GameRegistry.addRecipe(new ItemStack(MOSLEM2boots), new Object[]{"L L","P P","   ", 'P', Items.leather, 'L', Items.Iron_Ingot});
 		
 	}
 	@EventHandler
