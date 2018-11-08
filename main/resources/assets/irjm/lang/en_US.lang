@@ -1,0 +1,46 @@
+itemGroup.FaithAndWarArmor=FAW Armour
+item.Chainmail=.nameChanimail
+item.IronNug=.nameIron Nugget
+item.woodShaft.name=Wooden Shaft
+item.leatherStrap.name=Leather Straps
+
+item.MOSLEM1helm.name=Iron Moslem Conical Helmet
+item.MOSLEM1chest.name=Leathern Moslem Scaled Hauberk
+item.MOSLEM1legs.name=Leathern Moslem Scaled Chaps
+item.MOSLEM1boots.name=Leathern Sand Strider Boots
+
+item.MOSLEM2helm.name=Iron Masked Jihad Conical Helmet
+item.MOSLEM2chest.name=Iron Plated Jihad Chestplate
+item.MOSLEM2legs.name=Iron Plated Jihad Leggings
+item.MOSLEM2boots.name=Iron Shin-Plated Jihad Boots
+
+item.EU1helm.name=Iron Norman Nasal Helmet
+item.EU1chest.name=Iron Norman Chain Hauberk
+item.EU1legs.name=Iron Chain Chaps
+item.EU1boots.name=Leathern Shin Wrappings
+
+
+
+item.EU2helm.name=Iron Great Helm
+item.EU2chest.name=Iron Plated Common Chestplate
+item.EU2legs.name=Iron Plated Common Leggings
+item.EU2boots.name=Iron Shin-Plated Common Boots
+
+
+tile.NorthStone.name=
+tile.NorthStoneBrick.name=
+tile.NorthStoneBrickM.name=
+tile.NorthStoneBrickCR.name=
+tile.NorthStoneBrickCA.name=
+tile.NorthStoneBrickF.name=
+tile.NorthStoneBrickB.name=
+tile.NorthStoneCobble.name=
+
+tile.Limestone.name=
+tile.LimestoneBrick.name=
+tile.LimestoneBrickM.name=
+tile.LimestoneBrickB.name=
+tile.LimestoneBrickCR.name=
+tile.LimestoneBrickCA.name=
+tile.LimestoneBrickF.name=
+tile.LimestoneCobble.name=
