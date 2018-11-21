@@ -265,20 +265,31 @@ public class IanMod {
 	@EventHandler
 	public void Init(FMLInitializationEvent event){
 	
-		GameRegistry.addRecipe(new ItemStack(MOSLEM1helm), new Object[]{" I ","III"," I ", 'I', Items.Iron_Ingot});
+		GameRegistry.addRecipe(new ItemStack(MOSLEM1helm), new Object[]{" I ","III"," I ", 'I', Items.iron_ingot});
 		GameRegistry.addRecipe(new ItemStack(MOSLEM1chest), new Object[]{"L L","SLS","LLL", 'S', LeatherStrap, 'L', Items.leather});
 		GameRegistry.addRecipe(new ItemStack(MOSLEM1legs), new Object[]{"LLL","P P", "L L", 'P', LeatherStrap, 'L', Items.leather});		
 		GameRegistry.addRecipe(new ItemStack(MOSLEM1boots), new Object[]{"L L","P P","   ", 'P', LeatherStrap, 'L', Items.leather});
 		GameRegistry.addRecipe(new ItemStack(MOSLEM1boots), new Object[]{"   ","L L","P P", 'P', LeatherStrap, 'L', Items.leather});
 		
 		GameRegistry.addRecipe(new ItemStack(MOSLEM2helm), new Object[]{" I ","III","III", 'I', Items.iron_ingot});
-		GameRegistry.addRecipe(new ItemStack(MOSLEM2chest), new Object[]{"L L","SIS","LIL", 'S', LeatherStrap, 'L', Chainmail, 'I', Items.Iron_Ingot});
-		GameRegistry.addRecipe(new ItemStack(MOSLEM2legs), new Object[]{"LLL","P P", "I I", 'P', LeatherStrap, 'L', Chainmail, 'I', Item.Iron_Ingot});		
-		GameRegistry.addRecipe(new ItemStack(MOSLEM2boots), new Object[]{"   ","L L","P P", 'P', Items.leather, 'L', Items.Iron_Ingot});
-		GameRegistry.addRecipe(new ItemStack(MOSLEM2boots), new Object[]{"L L","P P","   ", 'P', Items.leather, 'L', Items.Iron_Ingot});
+		GameRegistry.addRecipe(new ItemStack(MOSLEM2chest), new Object[]{"L L","SIS","LIL", 'S', LeatherStrap, 'L', Chainmail, 'I', Items.iron_ingot});
+		GameRegistry.addRecipe(new ItemStack(MOSLEM2legs), new Object[]{"LLL","P P", "I I", 'P', LeatherStrap, 'L', Chainmail, 'I', Item.iron_ingot});		
+		GameRegistry.addRecipe(new ItemStack(MOSLEM2boots), new Object[]{"   ","L L","P P", 'P', Items.leather, 'L', Items.iron_ingot});
+		GameRegistry.addRecipe(new ItemStack(MOSLEM2boots), new Object[]{"L L","P P","   ", 'P', Items.leather, 'L', Items.iron_ingot});
 		
 		GameRegistry.addRecipe(new ItemStack(EU1helm), new Object[]{"III"," I ","   ", 'I', Items.iron_ingot});
 		GameRegistry.addRecipe(new ItemStack(EU1helm), new Object[]{"   ","III"," I ", 'I', Items.iron_ingot});
+		GameRegistry.addRecipe(new ItemStack(EU1chest), new Object[]{"L L","CCC","CCC", 'L', LeatherStrap, 'C', Chainmail});
+		GameRegistry.addRecipe(new ItemStack(EU1legs), new Object[]{"CCC","C C","C C", 'L', 'C', Chainmail});
+		GameRegistry.addRecipe(new ItemStack(EU1boots), new Object[]{"   ","L L","N N", 'L', LeatherStrap, 'N', Items.leather});
+		GameRegistry.addRecipe(new ItemStack(EU1boots), new Object[]{"N N","L L","   ", 'N', LeatherStrap, 'L', Items.leather});
+		
+		GameRegistry.addRecipe(new ItemStack(EU2helm), new Object[]{"III","III"," I ", 'I', Items.iron_ingot, 'N', Items.leather});
+		GameRegistry.addRecipe(new ItemStack(EU2chest), new Object[]{"I I","LIL","III", 'I', Items.iron_ingot, 'L', LeatherStrap});
+		GameRegistry.addRecipe(new ItemStack(EU2legs), new Object[]{"III","L L","I I", 'I', Items.iron_ingot, 'L', LeatherStrap});
+		GameRegistry.addRecipe(new ItemStack(EU2boots), new Object[]{"I I","N N","   ", 'I', Items.iron_ingot, 'N', Items.leather});
+		GameRegistry.addRecipe(new ItemStack(EU2boots), new Object[]{"   ","N N","I I", 'N', Items.iron_ingot, 'I', Items.leather});
+
 	}
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
