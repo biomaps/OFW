@@ -7,7 +7,7 @@
 ### Code and 3D Animation: Ian "DeathMuffin77"
 ### Marketing and Design: Louis "MyctEctar"
 ### Textures and Design: Owen "FroggIsMe" Riseley
-### Information and Graphics Design: Havard "Skylord_Howard
+### Information and Graphics Design: Havard "Skylord_Howard"
 
 ## **Planned Features**
 #### we have a bunch of planned features but this below is the general outline of what we are aiming for. Do not expect to have these features soon ready in the mod. Recommending systems and features similar to these listed are not to be considered. We take only realistic and appropriate suggestions. 
