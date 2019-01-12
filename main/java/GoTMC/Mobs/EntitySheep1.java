@@ -28,12 +28,13 @@ public class EntitySheep1 {
 		registerEntityA4();
 		registerEntityA5();
 		
-		registerEntityE1();
+		/*
+		registerEntityE1(); 
 		registerEntityE2();
 		registerEntityE3();
 		registerEntityE4();
 		registerEntityE5();
-		
+		*/
 		
 
 

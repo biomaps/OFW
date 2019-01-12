@@ -1,6 +1,6 @@
-package com.ianRJ.ianMCmod.mobStuffz;
+package GoTMC.Mobs;
 //soldiers
-import com.ianRJ.ianMCmod.IanMod;
+import GoTMC.IanMod;
 
 import net.minecraft.entity.EntityAgeable;
 import net.minecraft.entity.SharedMonsterAttributes;
@@ -17,9 +17,9 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class EntityPersonMobAggressiveL extends EntityTameable{
+public class EntityDireWolfMob extends EntityTameable{
 
-	public EntityPersonMobAggressiveL(World par1world) {
+	public EntityDireWolfMob(World par1world) {
 		super(par1world);
 		this.setSize(1.8F, 0.9F);
 		this.tasks.addTask(0,new EntityAIWander(this, 0.4D));

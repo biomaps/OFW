@@ -1,14 +1,18 @@
 package GoTMC.Blocks;
 
+import java.util.Random;
+
+import GoTMC.IanMod;
 import net.minecraft.block.material.Material;
+import net.minecraft.item.Item;
 
 public class BCEstoneLI extends BCEstone{
 
-	public BCEstone(Material material) {
+	public BCEstoneLI(Material material) {
 		super(material);
 	}
   public Item getItemDropped(int metadata, Random rand, int fortune){
-		return IanMod.itemBlueberry;
+		return null;
 	
 	}
 

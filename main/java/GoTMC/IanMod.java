@@ -128,73 +128,73 @@ public class IanMod {
 		
 			/*-=-=-=-=-=-=-Armor-=-=-=-=-*/
 
-		itemHelmet1 = new ItemArmor1(ArmorMaterial1, 0, 0).setUnlocalizedName("EU1helm").setTextureName("irjm:EU1helm").setCreativeTab(FaithAndWarArmor);
+		itemHelmet1 = new ItemArmor1(ArmorMaterial1, 0, 0).setUnlocalizedName("EU1helm").setTextureName("irjm:EU1helm").setCreativeTab(tabGoTarmor);
 		GameRegistry.registerItem(itemHelmet1, itemHelmet1.getUnlocalizedName().substring(5));
 		
-		itemChestplate1 = new ItemArmor1(ArmorMaterial1, 0, 1).setUnlocalizedName("EU1chest").setTextureName("irjm:EU1chest").setCreativeTab(FaithAndWarArmor);
+		itemChestplate1 = new ItemArmor1(ArmorMaterial1, 0, 1).setUnlocalizedName("EU1chest").setTextureName("irjm:EU1chest").setCreativeTab(tabGoTarmor);
 		GameRegistry.registerItem(itemChestplate1, itemChestplate1.getUnlocalizedName().substring(5));
 		
-		itemLeggings1 = new ItemArmor1(ArmorMaterial1, 0, 2).setUnlocalizedName("EU1legs").setTextureName("irjm:EU1legs").setCreativeTab(FaithAndWarArmor);
+		itemLeggings1 = new ItemArmor1(ArmorMaterial1, 0, 2).setUnlocalizedName("EU1legs").setTextureName("irjm:EU1legs").setCreativeTab(tabGoTarmor);
 		GameRegistry.registerItem(itemLeggings1, itemLeggings1.getUnlocalizedName().substring(5));
 		
-		itemBoots1 = new ItemArmor1(ArmorMaterial1, 0, 3).setUnlocalizedName("EU1boots").setTextureName("irjm:EU1boots").setCreativeTab(FaithAndWarArmor);
+		itemBoots1 = new ItemArmor1(ArmorMaterial1, 0, 3).setUnlocalizedName("EU1boots").setTextureName("irjm:EU1boots").setCreativeTab(tabGoTarmor);
 		GameRegistry.registerItem(itemBoots1, itemBoots1.getUnlocalizedName().substring(5));
 		
 		
 		
-		itemHelmet2 = new ItemArmor2(ArmorMaterial2, 0, 0).setUnlocalizedName("EU2helm").setTextureName("irjm:EU2helm").setCreativeTab(FaithAndWarArmor);
+		itemHelmet2 = new ItemArmor2(ArmorMaterial2, 0, 0).setUnlocalizedName("EU2helm").setTextureName("irjm:EU2helm").setCreativeTab(tabGoTarmor);
 		GameRegistry.registerItem(itemHelmet2, itemHelmet2.getUnlocalizedName().substring(5));
 		
-		itemChestplate2 = new ItemArmor2(ArmorMaterial2, 0, 1).setUnlocalizedName("EU2chest").setTextureName("irjm:EU2chest").setCreativeTab(FaithAndWarArmor);
+		itemChestplate2 = new ItemArmor2(ArmorMaterial2, 0, 1).setUnlocalizedName("EU2chest").setTextureName("irjm:EU2chest").setCreativeTab(tabGoTarmor);
 		GameRegistry.registerItem(itemChestplate2, itemChestplate2.getUnlocalizedName().substring(5));
 		
-		itemLeggings2 = new ItemArmor2(ArmorMaterial2, 0, 2).setUnlocalizedName("EU2legs").setTextureName("irjm:EU2legs").setCreativeTab(FaithAndWarArmor);
+		itemLeggings2 = new ItemArmor2(ArmorMaterial2, 0, 2).setUnlocalizedName("EU2legs").setTextureName("irjm:EU2legs").setCreativeTab(tabGoTarmor);
 		GameRegistry.registerItem(itemLeggings2, itemLeggings2.getUnlocalizedName().substring(5));
 		
-		itemBoots2 = new ItemArmor2(ArmorMaterial2, 0, 3).setUnlocalizedName("EU2boots").setTextureName("irjm:EU2boots").setCreativeTab(FaithAndWarArmor);
+		itemBoots2 = new ItemArmor2(ArmorMaterial2, 0, 3).setUnlocalizedName("EU2boots").setTextureName("irjm:EU2boots").setCreativeTab(tabGoTarmor);
 		GameRegistry.registerItem(itemBoots2, itemBoots2.getUnlocalizedName().substring(5));
 		
 		
 		
-		itemHelmet3 = new ItemArmor3(ArmorMaterial3, 0, 0).setUnlocalizedName("MOSLEM1helm").setTextureName("irjm:MOSLEM1helm").setCreativeTab(FaithAndWarArmor);
+		itemHelmet3 = new ItemArmor3(ArmorMaterial3, 0, 0).setUnlocalizedName("MOSLEM1helm").setTextureName("irjm:MOSLEM1helm").setCreativeTab(tabGoTarmor);
 		GameRegistry.registerItem(itemHelmet3, itemHelmet3.getUnlocalizedName().substring(5));
 		
-		itemChestplate3 = new ItemArmor3(ArmorMaterial3, 0, 1).setUnlocalizedName("MOSLEM1chest").setTextureName("irjm:MOSLEM1chest").setCreativeTab(FaithAndWarArmor);
+		itemChestplate3 = new ItemArmor3(ArmorMaterial3, 0, 1).setUnlocalizedName("MOSLEM1chest").setTextureName("irjm:MOSLEM1chest").setCreativeTab(tabGoTarmor);
 		GameRegistry.registerItem(itemChestplate3, itemChestplate3.getUnlocalizedName().substring(5));
 		
-		itemLeggings3 = new ItemArmor3(ArmorMaterial3, 0, 2).setUnlocalizedName("MOSLEM1legs").setTextureName("irjm:MOSLEM1legs").setCreativeTab(FaithAndWarArmor);
+		itemLeggings3 = new ItemArmor3(ArmorMaterial3, 0, 2).setUnlocalizedName("MOSLEM1legs").setTextureName("irjm:MOSLEM1legs").setCreativeTab(tabGoTarmor);
 		GameRegistry.registerItem(itemLeggings3, itemLeggings3.getUnlocalizedName().substring(5));
 		
-		itemBoots3 = new ItemArmor3(ArmorMaterial3, 0, 3).setUnlocalizedName("MOSLEM1boots").setTextureName("irjm:MOSLEM1boots").setCreativeTab(FaithAndWarArmor);
+		itemBoots3 = new ItemArmor3(ArmorMaterial3, 0, 3).setUnlocalizedName("MOSLEM1boots").setTextureName("irjm:MOSLEM1boots").setCreativeTab(tabGoTarmor);
 		GameRegistry.registerItem(itemBoots3, itemBoots3.getUnlocalizedName().substring(5));
 		
 		
 		
-		itemHelmet4 = new ItemArmor4(ArmorMaterial4, 0, 0).setUnlocalizedName("MOSLEM2helm").setTextureName("irjm:MOSLEM2helm").setCreativeTab(FaithAndWarArmor);
+		itemHelmet4 = new ItemArmor4(ArmorMaterial4, 0, 0).setUnlocalizedName("MOSLEM2helm").setTextureName("irjm:MOSLEM2helm").setCreativeTab(tabGoTarmor);
 		GameRegistry.registerItem(itemHelmet4, itemHelmet4.getUnlocalizedName().substring(5));
 		
-		itemChestplate4 = new ItemArmor4(ArmorMaterial4, 0, 1).setUnlocalizedName("MOSLEM2chest").setTextureName("irjm:MOSLEM2chest").setCreativeTab(FaithAndWarArmor);
+		itemChestplate4 = new ItemArmor4(ArmorMaterial4, 0, 1).setUnlocalizedName("MOSLEM2chest").setTextureName("irjm:MOSLEM2chest").setCreativeTab(tabGoTarmor);
 		GameRegistry.registerItem(itemChestplate4, itemChestplate4.getUnlocalizedName().substring(5));
 		
-		itemLeggings4 = new ItemArmor4(ArmorMaterial4, 0, 2).setUnlocalizedName("MOSLEM2legs").setTextureName("irjm:MOSLEM2legs").setCreativeTab(FaithAndWarArmor);
+		itemLeggings4 = new ItemArmor4(ArmorMaterial4, 0, 2).setUnlocalizedName("MOSLEM2legs").setTextureName("irjm:MOSLEM2legs").setCreativeTab(tabGoTarmor);
 		GameRegistry.registerItem(itemLeggings4, itemLeggings4.getUnlocalizedName().substring(5));
 		
-		itemBoots4 = new ItemArmor4(ArmorMaterial4, 0, 3).setUnlocalizedName("MOSLEM2boots").setTextureName("irjm:MOSLEM2boots").setCreativeTab(FaithAndWarArmor);
+		itemBoots4 = new ItemArmor4(ArmorMaterial4, 0, 3).setUnlocalizedName("MOSLEM2boots").setTextureName("irjm:MOSLEM2boots").setCreativeTab(tabGoTarmor);
 		GameRegistry.registerItem(itemBoots4, itemBoots4.getUnlocalizedName().substring(5));
 		
 					/*-=-=-=-=-=-=-=-Materials-=-=-=-=-=-*/
 		
-		itemIronNug = new CraftingMaterial().setUnlocalizedName("IronNug").setTextureName("irjm:IronNug").setCreativeTab(FaithAndWarArmor);;
+		itemIronNug = new CraftingMaterial().setUnlocalizedName("IronNug").setTextureName("irjm:IronNug").setCreativeTab(tabGoTarmor);;
 		GameRegistry.registerItem(itemIronNug, itemIronNug.getUnlocalizedName().substring(5));
 		
-		itemChainmail = new CraftingMaterial().setUnlocalizedName("Chainmail").setTextureName("irjm:Chainmail").setCreativeTab(FaithAndWarArmor);;
+		itemChainmail = new CraftingMaterial().setUnlocalizedName("Chainmail").setTextureName("irjm:Chainmail").setCreativeTab(tabGoTarmor);;
 		GameRegistry.registerItem(itemChainmail, itemChainmail.getUnlocalizedName().substring(5));
 		
-		itemWoodShaft = new CraftingMaterialHand().setUnlocalizedName("WoodShaft").setTextureName("irjm:WoodShaft").setCreativeTab(FaithAndWarArmor);;
+		itemWoodShaft = new CraftingMaterialHand().setUnlocalizedName("WoodShaft").setTextureName("irjm:WoodShaft").setCreativeTab(tabGoTarmor);;
 		GameRegistry.registerItem(itemWoodShaft, itemWoodShaft.getUnlocalizedName().substring(5));
 		
-		itemLeatherStrap = new CraftingMaterial().setUnlocalizedName("LeatherStrap").setTextureName("irjm:LeatherStrap").setCreativeTab(FaithAndWarArmor);;
-		GameRegistry.registerItem(itemLeatherStrap, itemLeatherStrap.getUnlocalizedName().substring(5));
+		itemLeather = new CraftingMaterial().setUnlocalizedName("LeatherStrap").setTextureName("irjm:LeatherStrap").setCreativeTab(tabGoTarmor);;
+		GameRegistry.registerItem(itemLeather, itemLeather.getUnlocalizedName().substring(5));
 		
 		/*SWORDS + BOWS 🦈 */
 		
@@ -264,32 +264,32 @@ public class IanMod {
 	}
 	@EventHandler
 	public void Init(FMLInitializationEvent event){
-	
-		GameRegistry.addRecipe(new ItemStack(MOSLEM1helm), new Object[]{" I ","III"," I ", 'I', Items.iron_ingot});
-		GameRegistry.addRecipe(new ItemStack(MOSLEM1chest), new Object[]{"L L","SLS","LLL", 'S', LeatherStrap, 'L', Items.leather});
-		GameRegistry.addRecipe(new ItemStack(MOSLEM1legs), new Object[]{"LLL","P P", "L L", 'P', LeatherStrap, 'L', Items.leather});		
-		GameRegistry.addRecipe(new ItemStack(MOSLEM1boots), new Object[]{"L L","P P","   ", 'P', LeatherStrap, 'L', Items.leather});
-		GameRegistry.addRecipe(new ItemStack(MOSLEM1boots), new Object[]{"   ","L L","P P", 'P', LeatherStrap, 'L', Items.leather});
+/*	
+		GameRegistry.addRecipe(new ItemStack(IanMod.MOSLEM1helm), new Object[]{" I ","III"," I ", 'I', Items.iron_ingot});
+		GameRegistry.addRecipe(new ItemStack(MOSLEM1chest), new Object[]{"L L","SLS","LLL", 'S', itemLeather, 'L', Items.leather});
+		GameRegistry.addRecipe(new ItemStack(MOSLEM1legs), new Object[]{"LLL","P P", "L L", 'P', itemLeather, 'L', Items.leather});		
+		GameRegistry.addRecipe(new ItemStack(MOSLEM1boots), new Object[]{"L L","P P","   ", 'P', itemLeather, 'L', Items.leather});
+		GameRegistry.addRecipe(new ItemStack(MOSLEM1boots), new Object[]{"   ","L L","P P", 'P', itemLeather, 'L', Items.leather});
 		
 		GameRegistry.addRecipe(new ItemStack(MOSLEM2helm), new Object[]{" I ","III","III", 'I', Items.iron_ingot});
-		GameRegistry.addRecipe(new ItemStack(MOSLEM2chest), new Object[]{"L L","SIS","LIL", 'S', LeatherStrap, 'L', Chainmail, 'I', Items.iron_ingot});
-		GameRegistry.addRecipe(new ItemStack(MOSLEM2legs), new Object[]{"LLL","P P", "I I", 'P', LeatherStrap, 'L', Chainmail, 'I', Item.iron_ingot});		
+		GameRegistry.addRecipe(new ItemStack(MOSLEM2chest), new Object[]{"L L","SIS","LIL", 'S', itemLeather, 'L', itemChainmail, 'I', Items.iron_ingot});
+		GameRegistry.addRecipe(new ItemStack(MOSLEM2legs), new Object[]{"LLL","P P", "I I", 'P', itemLeather, 'L', itemChainmail, 'I', Items.iron_ingot});		
 		GameRegistry.addRecipe(new ItemStack(MOSLEM2boots), new Object[]{"   ","L L","P P", 'P', Items.leather, 'L', Items.iron_ingot});
 		GameRegistry.addRecipe(new ItemStack(MOSLEM2boots), new Object[]{"L L","P P","   ", 'P', Items.leather, 'L', Items.iron_ingot});
 		
 		GameRegistry.addRecipe(new ItemStack(EU1helm), new Object[]{"III"," I ","   ", 'I', Items.iron_ingot});
 		GameRegistry.addRecipe(new ItemStack(EU1helm), new Object[]{"   ","III"," I ", 'I', Items.iron_ingot});
-		GameRegistry.addRecipe(new ItemStack(EU1chest), new Object[]{"L L","CCC","CCC", 'L', LeatherStrap, 'C', Chainmail});
-		GameRegistry.addRecipe(new ItemStack(EU1legs), new Object[]{"CCC","C C","C C", 'L', 'C', Chainmail});
-		GameRegistry.addRecipe(new ItemStack(EU1boots), new Object[]{"   ","L L","N N", 'L', LeatherStrap, 'N', Items.leather});
-		GameRegistry.addRecipe(new ItemStack(EU1boots), new Object[]{"N N","L L","   ", 'N', LeatherStrap, 'L', Items.leather});
+		GameRegistry.addRecipe(new ItemStack(EU1chest), new Object[]{"L L","CCC","CCC", 'L', itemLeather, 'C', itemChainmail});
+		GameRegistry.addRecipe(new ItemStack(EU1legs), new Object[]{"CCC","C C","C C", 'L', 'C', itemChainmail});
+		GameRegistry.addRecipe(new ItemStack(EU1boots), new Object[]{"   ","L L","N N", 'L', itemLeather, 'N', Items.leather});
+		GameRegistry.addRecipe(new ItemStack(EU1boots), new Object[]{"N N","L L","   ", 'N', itemLeather, 'L', Items.leather});
 		
 		GameRegistry.addRecipe(new ItemStack(EU2helm), new Object[]{"III","III"," I ", 'I', Items.iron_ingot, 'N', Items.leather});
-		GameRegistry.addRecipe(new ItemStack(EU2chest), new Object[]{"I I","LIL","III", 'I', Items.iron_ingot, 'L', LeatherStrap});
-		GameRegistry.addRecipe(new ItemStack(EU2legs), new Object[]{"III","L L","I I", 'I', Items.iron_ingot, 'L', LeatherStrap});
+		GameRegistry.addRecipe(new ItemStack(EU2chest), new Object[]{"I I","LIL","III", 'I', Items.iron_ingot, 'L', itemLeather});
+		GameRegistry.addRecipe(new ItemStack(EU2legs), new Object[]{"III","L L","I I", 'I', Items.iron_ingot, 'L', itemLeather});
 		GameRegistry.addRecipe(new ItemStack(EU2boots), new Object[]{"I I","N N","   ", 'I', Items.iron_ingot, 'N', Items.leather});
 		GameRegistry.addRecipe(new ItemStack(EU2boots), new Object[]{"   ","N N","I I", 'N', Items.iron_ingot, 'I', Items.leather});
-
+*/
 	}
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
@@ -297,7 +297,7 @@ public class IanMod {
 	
 				//list of blocks from every mod
 	}
-	public static CreativeTabs FaithAndWarArmor= new CreativeTabs("FaithAndWarArmor"){
+	public static CreativeTabs tabGoTblocks= new CreativeTabs("GoT Blocks"){
 		@Override
 		public Item getTabIconItem(){
 			return new ItemStack(itemHelmet2).getItem();
@@ -306,7 +306,7 @@ public class IanMod {
 	//causes an order to the loading of the mods so PreInit then init then post
 		}
 	};
-	public static CreativeTabs FaithAndWarItems= new CreativeTabs("FaithAndWarItems"){
+	public static CreativeTabs tabGoTarmor= new CreativeTabs("GoT Armor"){
 		@Override
 		public Item getTabIconItem(){
 			return new ItemStack(itemHelmet2).getItem();
