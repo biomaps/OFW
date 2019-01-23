@@ -52,8 +52,6 @@ public class IanMod {
 		//Limestone
 	public static Block blockLimestoneBrick;
 	public static Block blockLimestoneBrickCA;
-	public static Block blockLimestoneBrickM;
-	public static Block blockLimestoneBrickF;
 	public static Block blockLimestoneCobble;
 	public static Block blockLimestoneBrickCR;
 	public static Block blockLimestoneBrickB;
@@ -62,8 +60,6 @@ public class IanMod {
 	//granite
 	public static Block blockNorthStoneBrick;
 	public static Block blockNorthStoneBrickCA;
-	public static Block blockNorthStoneBrickM;
-	public static Block blockNorthStoneBrickF;
 	public static Block blockNorthStoneCobble;
 	public static Block blockNorthStoneBrickCR;
 	public static Block blockNorthStoneBrickB;
@@ -128,72 +124,72 @@ public class IanMod {
 		
 			/*-=-=-=-=-=-=-Armor-=-=-=-=-*/
 
-		itemHelmet1 = new ItemArmor1(ArmorMaterial1, 0, 0).setUnlocalizedName("EU1helm").setTextureName("irjm:EU1helm").setCreativeTab(tabGoTarmor);
+		itemHelmet1 = new ItemArmor1(ArmorMaterial1, 0, 0).setUnlocalizedName("EU1helm").setTextureName("irjm:EU1helm").setCreativeTab(FaithAndWarArmor);
 		GameRegistry.registerItem(itemHelmet1, itemHelmet1.getUnlocalizedName().substring(5));
 		
-		itemChestplate1 = new ItemArmor1(ArmorMaterial1, 0, 1).setUnlocalizedName("EU1chest").setTextureName("irjm:EU1chest").setCreativeTab(tabGoTarmor);
+		itemChestplate1 = new ItemArmor1(ArmorMaterial1, 0, 1).setUnlocalizedName("EU1chest").setTextureName("irjm:EU1chest").setCreativeTab(FaithAndWarArmor);
 		GameRegistry.registerItem(itemChestplate1, itemChestplate1.getUnlocalizedName().substring(5));
 		
-		itemLeggings1 = new ItemArmor1(ArmorMaterial1, 0, 2).setUnlocalizedName("EU1legs").setTextureName("irjm:EU1legs").setCreativeTab(tabGoTarmor);
+		itemLeggings1 = new ItemArmor1(ArmorMaterial1, 0, 2).setUnlocalizedName("EU1legs").setTextureName("irjm:EU1legs").setCreativeTab(FaithAndWarArmor);
 		GameRegistry.registerItem(itemLeggings1, itemLeggings1.getUnlocalizedName().substring(5));
 		
-		itemBoots1 = new ItemArmor1(ArmorMaterial1, 0, 3).setUnlocalizedName("EU1boots").setTextureName("irjm:EU1boots").setCreativeTab(tabGoTarmor);
+		itemBoots1 = new ItemArmor1(ArmorMaterial1, 0, 3).setUnlocalizedName("EU1boots").setTextureName("irjm:EU1boots").setCreativeTab(FaithAndWarArmor);
 		GameRegistry.registerItem(itemBoots1, itemBoots1.getUnlocalizedName().substring(5));
 		
 		
 		
-		itemHelmet2 = new ItemArmor2(ArmorMaterial2, 0, 0).setUnlocalizedName("EU2helm").setTextureName("irjm:EU2helm").setCreativeTab(tabGoTarmor);
+		itemHelmet2 = new ItemArmor2(ArmorMaterial2, 0, 0).setUnlocalizedName("EU2helm").setTextureName("irjm:EU2helm").setCreativeTab(FaithAndWarArmor);
 		GameRegistry.registerItem(itemHelmet2, itemHelmet2.getUnlocalizedName().substring(5));
 		
-		itemChestplate2 = new ItemArmor2(ArmorMaterial2, 0, 1).setUnlocalizedName("EU2chest").setTextureName("irjm:EU2chest").setCreativeTab(tabGoTarmor);
+		itemChestplate2 = new ItemArmor2(ArmorMaterial2, 0, 1).setUnlocalizedName("EU2chest").setTextureName("irjm:EU2chest").setCreativeTab(FaithAndWarArmor);
 		GameRegistry.registerItem(itemChestplate2, itemChestplate2.getUnlocalizedName().substring(5));
 		
-		itemLeggings2 = new ItemArmor2(ArmorMaterial2, 0, 2).setUnlocalizedName("EU2legs").setTextureName("irjm:EU2legs").setCreativeTab(tabGoTarmor);
+		itemLeggings2 = new ItemArmor2(ArmorMaterial2, 0, 2).setUnlocalizedName("EU2legs").setTextureName("irjm:EU2legs").setCreativeTab(FaithAndWarArmor);
 		GameRegistry.registerItem(itemLeggings2, itemLeggings2.getUnlocalizedName().substring(5));
 		
-		itemBoots2 = new ItemArmor2(ArmorMaterial2, 0, 3).setUnlocalizedName("EU2boots").setTextureName("irjm:EU2boots").setCreativeTab(tabGoTarmor);
+		itemBoots2 = new ItemArmor2(ArmorMaterial2, 0, 3).setUnlocalizedName("EU2boots").setTextureName("irjm:EU2boots").setCreativeTab(FaithAndWarArmor);
 		GameRegistry.registerItem(itemBoots2, itemBoots2.getUnlocalizedName().substring(5));
 		
 		
 		
-		itemHelmet3 = new ItemArmor3(ArmorMaterial3, 0, 0).setUnlocalizedName("MOSLEM1helm").setTextureName("irjm:MOSLEM1helm").setCreativeTab(tabGoTarmor);
+		itemHelmet3 = new ItemArmor3(ArmorMaterial3, 0, 0).setUnlocalizedName("MOSLEM1helm").setTextureName("irjm:MOSLEM1helm").setCreativeTab(FaithAndWarArmor);
 		GameRegistry.registerItem(itemHelmet3, itemHelmet3.getUnlocalizedName().substring(5));
 		
-		itemChestplate3 = new ItemArmor3(ArmorMaterial3, 0, 1).setUnlocalizedName("MOSLEM1chest").setTextureName("irjm:MOSLEM1chest").setCreativeTab(tabGoTarmor);
+		itemChestplate3 = new ItemArmor3(ArmorMaterial3, 0, 1).setUnlocalizedName("MOSLEM1chest").setTextureName("irjm:MOSLEM1chest").setCreativeTab(FaithAndWarArmor);
 		GameRegistry.registerItem(itemChestplate3, itemChestplate3.getUnlocalizedName().substring(5));
 		
-		itemLeggings3 = new ItemArmor3(ArmorMaterial3, 0, 2).setUnlocalizedName("MOSLEM1legs").setTextureName("irjm:MOSLEM1legs").setCreativeTab(tabGoTarmor);
+		itemLeggings3 = new ItemArmor3(ArmorMaterial3, 0, 2).setUnlocalizedName("MOSLEM1legs").setTextureName("irjm:MOSLEM1legs").setCreativeTab(FaithAndWarArmor);
 		GameRegistry.registerItem(itemLeggings3, itemLeggings3.getUnlocalizedName().substring(5));
 		
-		itemBoots3 = new ItemArmor3(ArmorMaterial3, 0, 3).setUnlocalizedName("MOSLEM1boots").setTextureName("irjm:MOSLEM1boots").setCreativeTab(tabGoTarmor);
+		itemBoots3 = new ItemArmor3(ArmorMaterial3, 0, 3).setUnlocalizedName("MOSLEM1boots").setTextureName("irjm:MOSLEM1boots").setCreativeTab(FaithAndWarArmor);
 		GameRegistry.registerItem(itemBoots3, itemBoots3.getUnlocalizedName().substring(5));
 		
 		
 		
-		itemHelmet4 = new ItemArmor4(ArmorMaterial4, 0, 0).setUnlocalizedName("MOSLEM2helm").setTextureName("irjm:MOSLEM2helm").setCreativeTab(tabGoTarmor);
+		itemHelmet4 = new ItemArmor4(ArmorMaterial4, 0, 0).setUnlocalizedName("MOSLEM2helm").setTextureName("irjm:MOSLEM2helm").setCreativeTab(FaithAndWarArmor);
 		GameRegistry.registerItem(itemHelmet4, itemHelmet4.getUnlocalizedName().substring(5));
 		
-		itemChestplate4 = new ItemArmor4(ArmorMaterial4, 0, 1).setUnlocalizedName("MOSLEM2chest").setTextureName("irjm:MOSLEM2chest").setCreativeTab(tabGoTarmor);
+		itemChestplate4 = new ItemArmor4(ArmorMaterial4, 0, 1).setUnlocalizedName("MOSLEM2chest").setTextureName("irjm:MOSLEM2chest").setCreativeTab(FaithAndWarArmor);
 		GameRegistry.registerItem(itemChestplate4, itemChestplate4.getUnlocalizedName().substring(5));
 		
-		itemLeggings4 = new ItemArmor4(ArmorMaterial4, 0, 2).setUnlocalizedName("MOSLEM2legs").setTextureName("irjm:MOSLEM2legs").setCreativeTab(tabGoTarmor);
+		itemLeggings4 = new ItemArmor4(ArmorMaterial4, 0, 2).setUnlocalizedName("MOSLEM2legs").setTextureName("irjm:MOSLEM2legs").setCreativeTab(FaithAndWarArmor);
 		GameRegistry.registerItem(itemLeggings4, itemLeggings4.getUnlocalizedName().substring(5));
 		
-		itemBoots4 = new ItemArmor4(ArmorMaterial4, 0, 3).setUnlocalizedName("MOSLEM2boots").setTextureName("irjm:MOSLEM2boots").setCreativeTab(tabGoTarmor);
+		itemBoots4 = new ItemArmor4(ArmorMaterial4, 0, 3).setUnlocalizedName("MOSLEM2boots").setTextureName("irjm:MOSLEM2boots").setCreativeTab(FaithAndWarArmor);
 		GameRegistry.registerItem(itemBoots4, itemBoots4.getUnlocalizedName().substring(5));
 		
 					/*-=-=-=-=-=-=-=-Materials-=-=-=-=-=-*/
 		
-		itemIronNug = new CraftingMaterial().setUnlocalizedName("IronNug").setTextureName("irjm:IronNug").setCreativeTab(tabGoTarmor);;
+		itemIronNug = new CraftingMaterial().setUnlocalizedName("IronNug").setTextureName("irjm:IronNug").setCreativeTab(FaithAndWarArmor);;
 		GameRegistry.registerItem(itemIronNug, itemIronNug.getUnlocalizedName().substring(5));
 		
-		itemChainmail = new CraftingMaterial().setUnlocalizedName("Chainmail").setTextureName("irjm:Chainmail").setCreativeTab(tabGoTarmor);;
+		itemChainmail = new CraftingMaterial().setUnlocalizedName("Chainmail").setTextureName("irjm:Chainmail").setCreativeTab(FaithAndWarArmor);;
 		GameRegistry.registerItem(itemChainmail, itemChainmail.getUnlocalizedName().substring(5));
 		
-		itemWoodShaft = new CraftingMaterialHand().setUnlocalizedName("WoodShaft").setTextureName("irjm:WoodShaft").setCreativeTab(tabGoTarmor);;
+		itemWoodShaft = new CraftingMaterialHand().setUnlocalizedName("WoodShaft").setTextureName("irjm:WoodShaft").setCreativeTab(FaithAndWarArmor);;
 		GameRegistry.registerItem(itemWoodShaft, itemWoodShaft.getUnlocalizedName().substring(5));
 		
-		itemLeather = new CraftingMaterial().setUnlocalizedName("LeatherStrap").setTextureName("irjm:LeatherStrap").setCreativeTab(tabGoTarmor);;
+		itemLeather = new CraftingMaterial().setUnlocalizedName("LeatherStrap").setTextureName("irjm:LeatherStrap").setCreativeTab(FaithAndWarArmor);;
 		GameRegistry.registerItem(itemLeather, itemLeather.getUnlocalizedName().substring(5));
 		
 		/*SWORDS + BOWS 🦈 */
@@ -209,54 +205,44 @@ public class IanMod {
 		
 	//Limestone
 		
-		blockLimestone = new BCEstoneLI(Material.rock).setBlockName("Limestone").setBlockTextureName("irjm:limestone").setCreativeTab(tabGoTblocks);
+		blockLimestone = new BCEstoneLI(Material.rock).setBlockName("Limestone").setBlockTextureName("irjm:limestone").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockLimestone, blockLimestone.getUnlocalizedName().substring(5));
 		
-		blockLimestoneBrick = new BCEbrick(Material.rock).setBlockName("LimestoneBrick").setBlockTextureName("irjm:limestoneB").setCreativeTab(tabGoTblocks);
+		blockLimestoneBrick = new BCEbrick(Material.rock).setBlockName("LimestoneBrick").setBlockTextureName("irjm:limestoneB").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockLimestoneBrick, blockLimestoneBrick.getUnlocalizedName().substring(5));
+
 		
-		blockLimestoneBrickM = new BCEbrick(Material.rock).setBlockName("LimestoneBrickM").setBlockTextureName("irjm:limestoneBmossy").setCreativeTab(tabGoTblocks);
-		GameRegistry.registerBlock(blockLimestoneBrickM, blockLimestoneBrickM.getUnlocalizedName().substring(5));
-		
-		blockLimestoneBrickB = new BCEbrick(Material.rock).setBlockName("LimestoneBrickB").setBlockTextureName("irjm:limestoneBburnt").setCreativeTab(tabGoTblocks);
+		blockLimestoneBrickB = new BCEbrick(Material.rock).setBlockName("LimestoneBrickB").setBlockTextureName("irjm:limestoneBburnt").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockLimestoneBrickB, blockLimestoneBrickB.getUnlocalizedName().substring(5));
 		
-		blockLimestoneBrickCR = new BCEbrick(Material.rock).setBlockName("LimestoneBrickCR").setBlockTextureName("irjm:limestoneBcracked").setCreativeTab(tabGoTblocks);
+		blockLimestoneBrickCR = new BCEbrick(Material.rock).setBlockName("LimestoneBrickCR").setBlockTextureName("irjm:limestoneBcracked").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockLimestoneBrickCR, blockLimestoneBrickCR.getUnlocalizedName().substring(5));
 		
-		blockLimestoneBrickCA = new BCEbrick(Material.rock).setBlockName("LimestoneBrickCA").setBlockTextureName("irjm:limestoneBcarved").setCreativeTab(tabGoTblocks);
+		blockLimestoneBrickCA = new BCEbrick(Material.rock).setBlockName("LimestoneBrickCA").setBlockTextureName("irjm:limestoneBcarved").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockLimestoneBrickCA, blockLimestoneBrickCA.getUnlocalizedName().substring(5));
 		
-		blockLimestoneBrickF = new BCEbrick(Material.rock).setBlockName("LimestoneBrickF").setBlockTextureName("irjm:limestoneBfrozen").setCreativeTab(tabGoTblocks);
-		GameRegistry.registerBlock(blockLimestoneBrickF, blockLimestoneBrickF.getUnlocalizedName().substring(5));
-		
-		blockLimestoneCobble = new BCEbrick(Material.rock).setBlockName("LimestoneCobble").setBlockTextureName("irjm:limestoneCobble").setCreativeTab(tabGoTblocks);
+		blockLimestoneCobble = new BCEbrick(Material.rock).setBlockName("LimestoneCobble").setBlockTextureName("irjm:limestoneCobble").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockLimestoneCobble, blockLimestoneCobble.getUnlocalizedName().substring(5));
 	//Granite
 		
 		
-		blockNorthStone = new BCEstoneGR(Material.rock).setBlockName("NorthStone").setBlockTextureName("irjm:NorthStone").setCreativeTab(tabGoTblocks);
+		blockNorthStone = new BCEstoneGR(Material.rock).setBlockName("NorthStone").setBlockTextureName("irjm:NorthStone").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockNorthStone, blockNorthStone.getUnlocalizedName().substring(5));
 		
-		blockNorthStoneBrick = new BCEbrick(Material.rock).setBlockName("NorthStoneBrick").setBlockTextureName("irjm:NorthStoneB").setCreativeTab(tabGoTblocks);
+		blockNorthStoneBrick = new BCEbrick(Material.rock).setBlockName("NorthStoneBrick").setBlockTextureName("irjm:NorthStoneB").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockNorthStoneBrick, blockNorthStoneBrick.getUnlocalizedName().substring(5));
 		
-		blockNorthStoneBrickM = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickM").setBlockTextureName("irjm:NorthStoneBmossy").setCreativeTab(tabGoTblocks);
-		GameRegistry.registerBlock(blockNorthStoneBrickM, blockNorthStoneBrickM.getUnlocalizedName().substring(5));
 		
-		blockNorthStoneBrickCR = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickCR").setBlockTextureName("irjm:NorthStoneBcracked").setCreativeTab(tabGoTblocks);
+		blockNorthStoneBrickCR = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickCR").setBlockTextureName("irjm:NorthStoneBcracked").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockNorthStoneBrickCR, blockNorthStoneBrickCR.getUnlocalizedName().substring(5));
 		
-		blockNorthStoneBrickCA = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickCA").setBlockTextureName("irjm:NorthStoneBcarved").setCreativeTab(tabGoTblocks);
+		blockNorthStoneBrickCA = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickCA").setBlockTextureName("irjm:NorthStoneBcarved").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockNorthStoneBrickCA, blockNorthStoneBrickCA.getUnlocalizedName().substring(5));
 		
-		blockNorthStoneBrickF = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickF").setBlockTextureName("irjm:NorthStoneBfrozen").setCreativeTab(tabGoTblocks);
-		GameRegistry.registerBlock(blockNorthStoneBrickF, blockNorthStoneBrickF.getUnlocalizedName().substring(5));
-		
-		blockNorthStoneBrickB = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickB").setBlockTextureName("irjm:NorthStoneBburnt").setCreativeTab(tabGoTblocks);
+		blockNorthStoneBrickB = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickB").setBlockTextureName("irjm:NorthStoneBburnt").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockNorthStoneBrickB, blockNorthStoneBrickB.getUnlocalizedName().substring(5));
 		
-		blockNorthStoneCobble = new BCEbrick(Material.rock).setBlockName("NorthStoneCobble").setBlockTextureName("irjm:NorthStoneCobble").setCreativeTab(tabGoTblocks);
+		blockNorthStoneCobble = new BCEbrick(Material.rock).setBlockName("NorthStoneCobble").setBlockTextureName("irjm:NorthStoneCobble").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockNorthStoneCobble, blockNorthStoneCobble.getUnlocalizedName().substring(5));
 
 		
