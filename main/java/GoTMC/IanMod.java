@@ -297,7 +297,7 @@ public class IanMod {
 	
 				//list of blocks from every mod
 	}
-	public static CreativeTabs tabGoTblocks= new CreativeTabs("GoT Blocks"){
+	public static CreativeTabs tabGoTblocks= new CreativeTabs("FaithAndWarBlocks"){
 		@Override
 		public Item getTabIconItem(){
 			return new ItemStack(itemHelmet2).getItem();
@@ -306,7 +306,7 @@ public class IanMod {
 	//causes an order to the loading of the mods so PreInit then init then post
 		}
 	};
-	public static CreativeTabs tabGoTarmor= new CreativeTabs("GoT Armor"){
+	public static CreativeTabs tabGoTarmor= new CreativeTabs("FaithAndWarArmor"){
 		@Override
 		public Item getTabIconItem(){
 			return new ItemStack(itemHelmet2).getItem();
