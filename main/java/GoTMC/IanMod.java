@@ -56,6 +56,7 @@ public class IanMod {
 	public static Block blockLimestoneBrickCR;
 	public static Block blockLimestoneBrickB;
 	public static Block blockLimestone;
+	public static Block blockLimestoneBrickM;
 	
 	//granite
 	public static Block blockNorthStoneBrick;
@@ -64,6 +65,8 @@ public class IanMod {
 	public static Block blockNorthStoneBrickCR;
 	public static Block blockNorthStoneBrickB;
 	public static Block blockNorthStone;
+	public static Block blockNorthStoneBrickM;
+
 	
 	/*-=-=-=-=-=-=-Armor-=-=-=-=-*/
 
@@ -223,6 +226,10 @@ public class IanMod {
 		
 		blockLimestoneCobble = new BCEbrick(Material.rock).setBlockName("LimestoneCobble").setBlockTextureName("irjm:limestoneCobble").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockLimestoneCobble, blockLimestoneCobble.getUnlocalizedName().substring(5));
+		//limestone cobble mossy VVV
+		blockLimestoneBrickM = new BCEbrick(Material.rock).setBlockName("LimestoneBrickM").setBlockTextureName("irjm:limestoneBmossy").setCreativeTab(tabGoTblocks);
+		GameRegistry.registerBlock(blockLimestoneBrickM, blockLimestoneBrickM.getUnlocalizedName().substring(5));
+
 	//Granite
 		
 		
@@ -245,7 +252,8 @@ public class IanMod {
 		blockNorthStoneCobble = new BCEbrick(Material.rock).setBlockName("NorthStoneCobble").setBlockTextureName("irjm:NorthStoneCobble").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockNorthStoneCobble, blockNorthStoneCobble.getUnlocalizedName().substring(5));
 
-		
+		blockNorthStoneBrickM = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickM").setBlockTextureName("irjm:NorthStoneBmossy").setCreativeTab(tabGoTblocks);
+		GameRegistry.registerBlock(blockNorthStoneBrickM, blockNorthStoneBrickM.getUnlocalizedName().substring(5));
 
 	}
 	@EventHandler
