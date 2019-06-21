@@ -1,7 +1,6 @@
 package GoTMC.Proxy;
 
 import GoTMC.IanMod;
-import GoTMC.ArmorTools.ItemLargeSword;
 import GoTMC.models.LargeSword;
 import net.minecraft.client.Minecraft;
 import net.minecraft.item.Item;
@@ -16,7 +15,7 @@ public class ClientProxy extends ServerProxy{
 
 	public void registerRenderThings(){
 
-		MinecraftForgeClient.registerItemRenderer(IanMod.itemLargeSword, new ItemRendererLargeSword());
+		//MinecraftForgeClient.registerItemRenderer(IanMod.itemLargeSword, new ItemRendererLargeSword());
 		
 		
 		

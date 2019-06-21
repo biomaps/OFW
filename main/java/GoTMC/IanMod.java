@@ -19,7 +19,6 @@ import net.minecraft.item.ItemSlab;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.WorldType;
 import net.minecraftforge.common.util.EnumHelper;
-
 import GoTMC.*;
 import GoTMC.ArmorTools.*;
 import GoTMC.Blocks.*;
@@ -116,8 +115,8 @@ public class IanMod {
 		//Item/block init and registering
 		//config handling
 		
-		itemLargeSword = new ItemLargeSword(BCE1).setUnlocalizedName("NorthernSword").setTextureName("irjm:itemSword1");
-		GameRegistry.registerItem(itemLargeSword, itemLargeSword.getUnlocalizedName().substring(5));
+		//itemLargeSword = new ItemLargeSword(BCE1).setUnlocalizedName("NorthernSword").setTextureName("irjm:itemSword1");
+		//GameRegistry.registerItem(itemLargeSword, itemLargeSword.getUnlocalizedName().substring(5));
 		
 		crapOne = new CrapOne().setBlockName("CropOne").setBlockTextureName("irjm:a");
 		GameRegistry.registerBlock(crapOne, crapOne.getUnlocalizedName().substring(5));
@@ -227,7 +226,7 @@ public class IanMod {
 		blockLimestoneCobble = new BCEbrick(Material.rock).setBlockName("LimestoneCobble").setBlockTextureName("irjm:limestoneCobble").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockLimestoneCobble, blockLimestoneCobble.getUnlocalizedName().substring(5));
 		//limestone cobble mossy VVV
-		blockLimestoneBrickM = new BCEbrick(Material.rock).setBlockName("LimestoneBrickM").setBlockTextureName("irjm:limestoneBmossy").setCreativeTab(tabGoTblocks);
+		blockLimestoneBrickM = new BCEbrick(Material.rock).setBlockName("LimestoneBrickM").setBlockTextureName("irjm:limestoneBmossy").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockLimestoneBrickM, blockLimestoneBrickM.getUnlocalizedName().substring(5));
 
 	//Granite
@@ -252,7 +251,7 @@ public class IanMod {
 		blockNorthStoneCobble = new BCEbrick(Material.rock).setBlockName("NorthStoneCobble").setBlockTextureName("irjm:NorthStoneCobble").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockNorthStoneCobble, blockNorthStoneCobble.getUnlocalizedName().substring(5));
 
-		blockNorthStoneBrickM = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickM").setBlockTextureName("irjm:NorthStoneBmossy").setCreativeTab(tabGoTblocks);
+		blockNorthStoneBrickM = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickM").setBlockTextureName("irjm:NorthStoneBmossy").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockNorthStoneBrickM, blockNorthStoneBrickM.getUnlocalizedName().substring(5));
 
 	}
@@ -291,7 +290,7 @@ public class IanMod {
 	
 				//list of blocks from every mod
 	}
-	public static CreativeTabs tabGoTblocks= new CreativeTabs("FaithAndWarBlocks"){
+	public static CreativeTabs FaithAndWarBlocks= new CreativeTabs("FaithAndWarBlocks"){
 		@Override
 		public Item getTabIconItem(){
 			return new ItemStack(itemHelmet2).getItem();
@@ -300,7 +299,7 @@ public class IanMod {
 	//causes an order to the loading of the mods so PreInit then init then post
 		}
 	};
-	public static CreativeTabs tabGoTarmor= new CreativeTabs("FaithAndWarArmor"){
+	public static CreativeTabs FaithAndWarArmor= new CreativeTabs("FaithAndWarArmor"){
 		@Override
 		public Item getTabIconItem(){
 			return new ItemStack(itemHelmet2).getItem();
