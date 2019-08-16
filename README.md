@@ -4,12 +4,12 @@
 
 #### This is a 1.12.2 mod for Minecraft that includes features and systems set in the period between the late 12th centaury and early 13th centaury. SOME FEATURES OF THIS MOD ARE NOT HISTORICALLY ACCURATE AND SHOULD NOT BE TREATED AS SUCH. This mod is simply for entertainment purposes in the forms of roleplay and gameplay. WE DO NOT INTEND TO IMPOSE ON ANY FAITHS, ETHNICS, AND MORAL BACKGROUNDS. THIS MOD INCLUDES FEATURES THAT SOME PLAYERS MAY FIND DISTURBING SUCH AS HARSH LANGUAGE, SEXUAL THEMES, RASCISM, GORE AND VIOLENCE. We recommend that the player(s) should exceed the age of 16 before playing this mod. 
 
-###Mod Director and Lead Artist: Owen "FroggIsMe" Riseley
-###Mod Co-Director and Community Manager: Louis "MyctEctar" 
-###Historian and Community Manager: Zachary "Thullin_II"
-###Researcher: Hävard "Skylord_Howard" Moa
-###Programmer: Matthew "Yooks"
-###Programmer: Ian "deathmuffin77"
+### Mod Director and Lead Artist: Owen "FroggIsMe" Riseley
+### Mod Co-Director and Community Manager: Louis "MyctEctar" 
+### Historian and Community Manager: Zachary "Thullin_II"
+### Researcher: Hävard "Skylord_Howard" Moa
+### Programmer: Matthew "Yooks"
+### Programmer: Ian "deathmuffin77"
 
 ## **Planned Features**
 #### we have a bunch of planned features but this below is the general outline of what we are aiming for. Do not expect to have these features soon ready in the mod. Recommending systems and features similar to these listed are not to be considered. We take only realistic and appropriate suggestions. 
