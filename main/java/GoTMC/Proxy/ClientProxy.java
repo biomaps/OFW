@@ -1,8 +1,11 @@
 package GoTMC.Proxy;
 
 import GoTMC.IanMod;
+import GoTMC.Mobs.EntityDireWolfMob;
+import GoTMC.Mobs.RenderDireWolf;
 import GoTMC.models.LargeSword;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.RenderWolf;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.MinecraftForgeClient;
 import cpw.mods.fml.client.registry.ClientRegistry;
@@ -19,7 +22,7 @@ public class ClientProxy extends ServerProxy{
 		
 		
 		
-		//RenderingRegistry.registerEntityRenderingHandler(EnitityDireWolfMob.class, new RenderDireWolf(new DireWolf(), 0));
+		//RenderingRegistry.registerEntityRenderingHandler(EntityDireWolfMob.class, new RenderDireWolf(new DireWolf(), 0));
 		
 
 	

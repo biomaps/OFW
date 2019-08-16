@@ -207,51 +207,51 @@ public class IanMod {
 		
 	//Limestone
 		
-		blockLimestone = new BCEstoneLI(Material.rock).setBlockName("Limestone").setBlockTextureName("irjm:limestone").setCreativeTab(FaithAndWarBlocks);
+		blockLimestone = new BCEstoneLI(Material.rock).setBlockName("Limestone").setBlockTextureName("irjm:Limestone").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockLimestone, blockLimestone.getUnlocalizedName().substring(5));
 		
-		blockLimestoneBrick = new BCEbrick(Material.rock).setBlockName("LimestoneBrick").setBlockTextureName("irjm:limestoneB").setCreativeTab(FaithAndWarBlocks);
+		blockLimestoneBrick = new BCEbrick(Material.rock).setBlockName("LimestoneBrick").setBlockTextureName("irjm:Limestone_Brick").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockLimestoneBrick, blockLimestoneBrick.getUnlocalizedName().substring(5));
 
 		
-		blockLimestoneBrickB = new BCEbrick(Material.rock).setBlockName("LimestoneBrickB").setBlockTextureName("irjm:limestoneBburnt").setCreativeTab(FaithAndWarBlocks);
+		blockLimestoneBrickB = new BCEbrick(Material.rock).setBlockName("LimestoneBrickB").setBlockTextureName("irjm:limestone_Cobble_Mossy").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockLimestoneBrickB, blockLimestoneBrickB.getUnlocalizedName().substring(5));
 		
-		blockLimestoneBrickCR = new BCEbrick(Material.rock).setBlockName("LimestoneBrickCR").setBlockTextureName("irjm:limestoneBcracked").setCreativeTab(FaithAndWarBlocks);
+		blockLimestoneBrickCR = new BCEbrick(Material.rock).setBlockName("LimestoneBrickCR").setBlockTextureName("irjm:limestone_Brick_Cracked").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockLimestoneBrickCR, blockLimestoneBrickCR.getUnlocalizedName().substring(5));
 		
-		blockLimestoneBrickCA = new BCEbrick(Material.rock).setBlockName("LimestoneBrickCA").setBlockTextureName("irjm:limestoneBcarved").setCreativeTab(FaithAndWarBlocks);
+		blockLimestoneBrickCA = new BCEbrick(Material.rock).setBlockName("LimestoneBrickCA").setBlockTextureName("irjm:limestone_Brick_Chiselled").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockLimestoneBrickCA, blockLimestoneBrickCA.getUnlocalizedName().substring(5));
 		
-		blockLimestoneCobble = new BCEbrick(Material.rock).setBlockName("LimestoneCobble").setBlockTextureName("irjm:limestoneCobble").setCreativeTab(FaithAndWarBlocks);
+		blockLimestoneCobble = new BCEbrick(Material.rock).setBlockName("LimestoneCobble").setBlockTextureName("irjm:Limestone_Cobble").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockLimestoneCobble, blockLimestoneCobble.getUnlocalizedName().substring(5));
 		//limestone cobble mossy VVV
-		blockLimestoneBrickM = new BCEbrick(Material.rock).setBlockName("LimestoneBrickM").setBlockTextureName("irjm:limestoneBmossy").setCreativeTab(FaithAndWarBlocks);
+		blockLimestoneBrickM = new BCEbrick(Material.rock).setBlockName("LimestoneBrickM").setBlockTextureName("irjm:limestone_Brick_Mossy").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockLimestoneBrickM, blockLimestoneBrickM.getUnlocalizedName().substring(5));
 
 	//Granite
 		
 		
-		blockNorthStone = new BCEstoneGR(Material.rock).setBlockName("NorthStone").setBlockTextureName("irjm:NorthStone").setCreativeTab(FaithAndWarBlocks);
+		blockNorthStone = new BCEstoneGR(Material.rock).setBlockName("NorthStone").setBlockTextureName("irjm:Granite").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockNorthStone, blockNorthStone.getUnlocalizedName().substring(5));
 		
-		blockNorthStoneBrick = new BCEbrick(Material.rock).setBlockName("NorthStoneBrick").setBlockTextureName("irjm:NorthStoneB").setCreativeTab(FaithAndWarBlocks);
+		blockNorthStoneBrick = new BCEbrick(Material.rock).setBlockName("NorthStoneBrick").setBlockTextureName("irjm:Granite_Brick").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockNorthStoneBrick, blockNorthStoneBrick.getUnlocalizedName().substring(5));
 		
 		
-		blockNorthStoneBrickCR = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickCR").setBlockTextureName("irjm:NorthStoneBcracked").setCreativeTab(FaithAndWarBlocks);
+		blockNorthStoneBrickCR = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickCR").setBlockTextureName("irjm:Granite_Brick_Cracked").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockNorthStoneBrickCR, blockNorthStoneBrickCR.getUnlocalizedName().substring(5));
 		
-		blockNorthStoneBrickCA = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickCA").setBlockTextureName("irjm:NorthStoneBcarved").setCreativeTab(FaithAndWarBlocks);
+		blockNorthStoneBrickCA = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickCA").setBlockTextureName("irjm:Granite_Chiselled").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockNorthStoneBrickCA, blockNorthStoneBrickCA.getUnlocalizedName().substring(5));
 		
-		blockNorthStoneBrickB = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickB").setBlockTextureName("irjm:NorthStoneBburnt").setCreativeTab(FaithAndWarBlocks);
+		blockNorthStoneBrickB = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickB").setBlockTextureName("irjm:Granite_Cobble_Mossy").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockNorthStoneBrickB, blockNorthStoneBrickB.getUnlocalizedName().substring(5));
 		
-		blockNorthStoneCobble = new BCEbrick(Material.rock).setBlockName("NorthStoneCobble").setBlockTextureName("irjm:NorthStoneCobble").setCreativeTab(FaithAndWarBlocks);
+		blockNorthStoneCobble = new BCEbrick(Material.rock).setBlockName("NorthStoneCobble").setBlockTextureName("irjm:Granite_Cobble").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockNorthStoneCobble, blockNorthStoneCobble.getUnlocalizedName().substring(5));
 
-		blockNorthStoneBrickM = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickM").setBlockTextureName("irjm:NorthStoneBmossy").setCreativeTab(FaithAndWarBlocks);
+		blockNorthStoneBrickM = new BCEbrick(Material.rock).setBlockName("NorthStoneBrickM").setBlockTextureName("irjm:Granite_Brick_Mossy").setCreativeTab(FaithAndWarBlocks);
 		GameRegistry.registerBlock(blockNorthStoneBrickM, blockNorthStoneBrickM.getUnlocalizedName().substring(5));
 
 	}
