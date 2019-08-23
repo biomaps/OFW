@@ -5,10 +5,10 @@ itemGroup.FaithAndWarBlocks=FAW Blocks
 item.WesterlandSword.name=Andruil's Meme Might
 
 
-item.Chainmail=.nameChanimail
-item.IronNug=.nameIron Nugget
-item.woodShaft.name=Wooden Shaft
-item.leatherStrap.name=Leather Straps
+item.Chainmail.name=Chainmail
+item.IronNug.name=Iron Nugget
+item.WoodShaft.name=Wooden Shaft
+item.LeatherStrap.name=Leather Straps
 
 item.MOSLEM1helm.name=Iron Moslem Conical Helmet
 item.MOSLEM1chest.name=Leathern Moslem Scaled Hauberk
@@ -43,7 +43,7 @@ tile.NorthStoneCobble.name= Granite Cobble
 
 tile.Limestone.name= Limestone
 tile.LimestoneBrick.name= Limestone Brick
-tile.LimestoneBrickM.name= Mossy Lsimestone Brick
+tile.LimestoneBrickM.name= Mossy Limestone Brick
 tile.LimestoneBrickB.name= Mossy Limestone Cobble
 tile.LimestoneBrickCR.name= Cracked Limestone Brick
 tile.LimestoneBrickCA.name= Carved Limestone Brick 
