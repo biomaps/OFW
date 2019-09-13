@@ -92,10 +92,10 @@ public class IanMod {
 	public static Item itemSword1;
 	public static Item itemSword2;
 
-	public static final ItemArmor.ArmorMaterial ArmorMaterial1 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{2,5,4,1}, 30);
-	public static final ItemArmor.ArmorMaterial ArmorMaterial2 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{3,7,5,2}, 30);
-	public static final ItemArmor.ArmorMaterial ArmorMaterial3 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{2,4,3,1}, 30);
-	public static final ItemArmor.ArmorMaterial ArmorMaterial4 = EnumHelper.addArmorMaterial("ArmorMaterial1", 2000, new int[]{3,7,5,2}, 30);
+	public static final ItemArmor.ArmorMaterial ArmorMaterial1 = EnumHelper.addArmorMaterial("ArmorMaterial1", 17, new int[]{2,5,4,1}, 30);
+	public static final ItemArmor.ArmorMaterial ArmorMaterial2 = EnumHelper.addArmorMaterial("ArmorMaterial1", 17, new int[]{3,7,5,2}, 30);
+	public static final ItemArmor.ArmorMaterial ArmorMaterial3 = EnumHelper.addArmorMaterial("ArmorMaterial1", 17, new int[]{2,4,3,1}, 30);
+	public static final ItemArmor.ArmorMaterial ArmorMaterial4 = EnumHelper.addArmorMaterial("ArmorMaterial1", 17, new int[]{3,7,5,2}, 30);
 	
 	public static final Item.ToolMaterial BCEm1 = EnumHelper.addToolMaterial("BCEm1", 4, 1500, 9.0F, 3.0F, 0);
 	public static final Item.ToolMaterial BCEeu1 = EnumHelper.addToolMaterial("BCEeu1", 4, 1500, 9.0F, 3.0F, 0);
